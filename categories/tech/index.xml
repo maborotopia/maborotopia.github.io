@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on Maborotopia</title>
+    <link>https://maborotopia.github.io/categories/tech/</link>
+    <description>Recent content in Tech on Maborotopia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; Copyright 2018 Maborotopia</copyright>
+    <lastBuildDate>Thu, 13 Sep 2018 22:21:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://maborotopia.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Decentralise事始</title>
+      <link>https://maborotopia.github.io/etc/003_beaker/</link>
+      <pubDate>Thu, 13 Sep 2018 22:21:25 +0000</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/003_beaker/</guid>
+      <description>&lt;p&gt;ここではDecentralised Webに関する情報を掲載しています。&lt;/p&gt;
+
+&lt;h3 id=&#34;beaker-browserの使い方&#34;&gt;Beaker Browserの使い方&lt;/h3&gt;
+
+&lt;p&gt;Beaker Browserとdatプロトコルなどの非中央集権型のウェブについて簡単に説明する。&lt;br /&gt;
+&lt;a href=&#34;https://beakerbrowser.com/&#34;&gt;Beaker Browser&lt;/a&gt;は、非中央集権型のwebプロトコルDatをサポートしている次世代のブラウザだ。サーバーにデータを保存するのではなく、サイトの訪問者同士が互いにつながって、webサイトのデータを共有する。&lt;br /&gt;
+現時点(2018年9月)ではまだ実験段階だが、&lt;a href=&#34;https://beakerbrowser.com/docs/tour/#one-click-publishing&#34;&gt;サーバーを用意しなくても簡単にwebサイトを作成できる&lt;/a&gt;ほか、&lt;a href=&#34;https://beakerbrowser.com/docs/guides/create-a-markdown-site&#34;&gt;Markdownで記述したファイルをwebページとして表示する&lt;/a&gt;などの機能が備わっている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>キーボード配列について</title>
+      <link>https://maborotopia.github.io/etc/004_keyboard/</link>
+      <pubDate>Mon, 03 Sep 2018 23:21:25 +0000</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/004_keyboard/</guid>
+      <description>&lt;p&gt;この項目では、効率的に文字を入力するためのキー配列についての感想を述べる。&lt;br /&gt;
+結論から言うと親指シフトかColemak配列が個人的なおすすめだ。&lt;/p&gt;
+
+&lt;h3 id=&#34;フリック入力&#34;&gt;フリック入力&lt;/h3&gt;
+
+&lt;p&gt;人類の生産性を下げる悪魔の入力方法。十本指のうち一本の指だけで文字を入力するという低劣な文字入力環境を押しつけることで、インターネットの言語環境を根本から破壊した。人間の言語活動はフリック入力に最適化され、短文でしか思考できなくなり、マルチタスクで集中力を奪われ、長文読解力を失い、学力が下がり、（中略）、最終的に日本は滅びる。&lt;/p&gt;
+
+&lt;p&gt;人間は十本の指を使ってタイピングをしなければならないが、キーボード配列にも様々な罠がある。一度身体に染みついたタイピング技術を取り除くのは、新しい方法を習得するよりも難しい。自分がどのキー配列を選ぶのかは、しっかりと考えた方がいい。&lt;br /&gt;
+おれの時代には不可能だった。タイピングソフトもゲームもQwerty配列一色で、他の選択肢など与えられていなかった。おれが他の方法を探し始めたのも、指を腱鞘炎で壊してからだ。おまえたちは俺の二の轍を踏む必要は無い。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>XMPPかんたん！……でもない使い方ガイド。</title>
+      <link>https://maborotopia.github.io/etc/006_xmpp/</link>
+      <pubDate>Sat, 01 Sep 2018 01:01:25 +0000</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/006_xmpp/</guid>
+      <description>&lt;h4 id=&#34;めんどいので前置き抜きでやるぞ&#34;&gt;めんどいので前置き抜きでやるぞ。&lt;/h4&gt;
+
+&lt;p&gt;　まず第一にアカウントを作る。だいたいのことはこのサイトを参考にしてくれ。&lt;br /&gt;
+&lt;a href=&#34;https://www.im-net.org/sp/xmpp/&#34;&gt;一般ユーザー向けXMPP入門ページ（仮）&lt;/a&gt;&lt;br /&gt;
+　クライアントをインストールする。androisではconversationsを使う。playストアでは有料だが、F-droidではフリーで導入できる。&lt;br /&gt;
+　基本的なメッセージ機能と暗号化機能がサポートされており、携帯端末ではいちばん使いやすいと言われる。&lt;strong&gt;音声通話は使えないが、ボイスメッセージやビデオメッセージを残せる。&lt;/strong&gt;&lt;br /&gt;
+　このあたりの機能を駆使しつつメッセージをやりとりする。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://hacker10.com/computer-security/the-best-xmppjabber-servers-for-anonymous-chat/&#34;&gt;The best XMPP/Jabber servers for anonymous chat – Hacker 10 – Security Hacker&lt;/a&gt;&lt;br /&gt;
+Android　&lt;a href=&#34;https://conversations.im/&#34;&gt;Conversations: the very last word in instant messaging&lt;/a&gt;&lt;br /&gt;
+iOS　&lt;a href=&#34;https://chatsecure.org/&#34;&gt;chatsecure.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Androidのバッテリー消費を抑えるいくつかの方法。（Oreo版）</title>
+      <link>https://maborotopia.github.io/etc/001_android_oreo/</link>
+      <pubDate>Sun, 05 Aug 2018 04:37:25 +0000</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/001_android_oreo/</guid>
+      <description>&lt;p&gt;Androidも初期設定のままでは、微妙な場所で電力を無駄に消費している場合がある。この項目ではこれまでに自分が試したバッテリー節約方法をまとめてある。英語UIを使っているが、日本語でもなんとなくわかるはずだ。わからなかったら検索しよう。&lt;br /&gt;
+おれはAndroidのスマホを買う度に、動作が安定するまでにwifi経由でgoogleに呪詛の念を向けている。バージョンが変わるたびに設定方法が変わって面倒になるが、基本的な考え方は一緒だ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

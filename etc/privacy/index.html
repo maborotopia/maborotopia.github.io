@@ -94,6 +94,7 @@ Signal Private Messenger - Google Play のアプリ">
 <li><a href="#オープンソースソフトウェア実践編">・オープンソースソフトウェア実践編</a></li>
 <li><a href="#disroot-https-disroot-org-en-のアカウントを登録しよう">・<a href="https://disroot.org/en">Disroot</a>のアカウントを登録しよう。</a></li>
 <li><a href="#next-cloudを導入する">・Next Cloudを導入する。</a></li>
+<li><a href="#さまざまのサービスのコメント欄を非表示にするフィルタ">・さまざまのサービスのコメント欄を非表示にするフィルタ</a></li>
 <li><a href="#vpnサービスまとめ">VPNサービスまとめ。</a></li>
 <li><a href="#プライバシーを高めるfirefoxのadd-on">プライバシーを高めるFirefoxのAdd-on</a></li>
 <li><a href="#xmpp">XMPP</a></li>
@@ -155,8 +156,7 @@ Signal Private Messenger - Google Play のアプリ">
 
 <p>Disrootはプライバシーと非中央集権、連邦制の理念に基づいたオンラインサービスを提供するプラットフォームだ。アカウントを登録することで、メールアドレス、XMPPのメッセンジャーアカウント、4GBのクラウドストレージ、diaspora*というSNSを利用できる。<br />
 GoogleやFacebookに個人情報が収集されるのが気になる人に最適なサービスだ。<br />
-いますぐ<a href="https://disroot.org/en">Disroot</a>に登録しよう。Webサイトに使われている画像がデモの写真だったり発煙筒を蹴り飛ばしているおっさんだったりするのも、反骨精神を表現しているのでよい。このへんでグッとくるものを感じたら登録するといい。ただし日本語メニューがないのが欠点だが……。<br />
-自分のXMPPアカウントは metsa@disroot.org なので何かあったらメッセージをくれると嬉しい。</p>
+いますぐ<a href="https://disroot.org/en">Disroot</a>に登録しよう。Webサイトに使われている画像がデモの写真だったり発煙筒を蹴り飛ばしているおっさんだったりするのも、反骨精神を表現しているのでよい。このへんでグッとくるものを感じたら登録するといい。ただし日本語メニューがないのが欠点だが……。</p>
 
 <h3 id="next-cloudを導入する">・Next Cloudを導入する。</h3>
 
@@ -166,6 +166,34 @@ GoogleやFacebookに個人情報が収集されるのが気になる人に最適
 <ul>
 <li><a href="https://nextcloud.com/providers/">Providers – Nextcloud</a>
 Nextcloudのプロバイダ一覧。<br />
+<br /></li>
+</ul>
+
+<hr />
+
+<h3 id="さまざまのサービスのコメント欄を非表示にするフィルタ">・さまざまのサービスのコメント欄を非表示にするフィルタ</h3>
+
+<p>下記のテキストをublock originのMy filterに追加して、コメント欄を非表示にする。<br />
+&gt; b.hatena.ne.jp##.entry-comment.js-bookmarks-sort-tabs-group<br />
+&gt; twitter.com##.tweets-wrapper<br />
+&gt; togetter.com##.contents &gt; .right<br />
+&gt; headlines.yahoo.co.jp##.news-comment-plguin-iframe<br />
+&gt; news.yahoo.co.jp###yComments<br />
+&gt; anond.hatelabo.jp##.refererlist &gt; ul<br />
+&gt; anond.hatelabo.jp###bookmark-comment-unit</p>
+
+<p>・フィルタリングをするために役立つリンク</p>
+
+<ul>
+<li><a href="http://pasokatu.com/nsearch#gsc.tab=0">ノイズレスサーチ</a></li>
+<li><a href="http://tofukko.r.ribbon.to/abp.html">豆腐フィルタ</a></li>
+<li><a href="https://280blocker.net/">280blocker | モバイル広告ブロッカー</a></li>
+<li><a href="https://greasyfork.org/en/scripts/1682-google-hit-hider-by-domain-search-filter-block-sites">Google Hit Hider by Domain (Search Filter / Block Sites)</a>
+検索結果を除去するユーザースクリプト。</li>
+<li><a href="https://anond.hatelabo.jp/20140719222954">2chまとめをブロックするAdblock Plusのフィルタリスト</a>
+この辺のリストを加工してユーザースクリプトにぶち込む。</li>
+<li><a href="http://webaborn.herokuapp.com/">WebAborn（ウェブあぼ～ん） ― NGワードをブラウザに表示させない</a>
+キーワード単位で見たくない文章を除去するユーザースクリプト。
 <br /></li>
 </ul>
 

@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://maborotopia.github.io/post/20191307204219_tech/</loc>
+    <lastmod>2019-07-13T20:42:19+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20191307192223/</loc>
+    <lastmod>2019-07-13T19:22:23+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maborotopia.github.io/diary_03/</loc>
     <lastmod>2019-07-09T14:09:31+00:00</lastmod>
   </url>
@@ -631,7 +641,7 @@
   
   <url>
     <loc>https://maborotopia.github.io/</loc>
-    <lastmod>2019-07-09T14:09:31+00:00</lastmod>
+    <lastmod>2019-07-13T20:42:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -645,7 +655,7 @@
   
   <url>
     <loc>https://maborotopia.github.io/post/</loc>
-    <lastmod>2019-04-21T20:23:00+09:00</lastmod>
+    <lastmod>2019-07-13T20:42:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   

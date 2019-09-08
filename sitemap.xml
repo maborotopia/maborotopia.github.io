@@ -4,12 +4,27 @@
   
   <url>
     <loc>https://maborotopia.github.io/diary_03/</loc>
-    <lastmod>2019-08-31T01:09:31+00:00</lastmod>
+    <lastmod>2019-09-09T01:09:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20190709023942_mastodon/</loc>
+    <lastmod>2019-09-07T02:39:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20190609001914_c3/</loc>
+    <lastmod>2019-09-06T00:19:14+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://maborotopia.github.io/post/20192108094738/</loc>
     <lastmod>2019-08-21T09:47:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20191808133528_ff12/</loc>
+    <lastmod>2019-08-18T13:35:28+09:00</lastmod>
   </url>
   
   <url>
@@ -681,7 +696,7 @@
   
   <url>
     <loc>https://maborotopia.github.io/</loc>
-    <lastmod>2019-08-31T01:09:31+00:00</lastmod>
+    <lastmod>2019-09-09T01:09:31+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -695,7 +710,7 @@
   
   <url>
     <loc>https://maborotopia.github.io/post/</loc>
-    <lastmod>2019-08-21T09:47:38+09:00</lastmod>
+    <lastmod>2019-09-07T02:39:42+09:00</lastmod>
     <priority>0</priority>
   </url>
   

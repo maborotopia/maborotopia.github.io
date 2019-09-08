@@ -7,10 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Maborotopia</copyright>
-    <lastBuildDate>Wed, 21 Aug 2019 09:47:38 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Sep 2019 02:39:42 +0900</lastBuildDate>
     
 	<atom:link href="https://maborotopia.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>マストドン日記。</title>
+      <link>https://maborotopia.github.io/post/20190709023942_mastodon/</link>
+      <pubDate>Sat, 07 Sep 2019 02:39:42 +0900</pubDate>
+      
+      <guid>https://maborotopia.github.io/post/20190709023942_mastodon/</guid>
+      <description>&lt;p&gt;知り合いと連絡を取るために鍵アカにしたままのTwitterに再ログインしたが、タイムラインに流れる感情の渦に吐き気を催して、アカウントを発作的に削除してしまった。&lt;br /&gt;
+自分にはメンタルゲージがゼロになるとSNSアカウントを削除してしまう呪いが掛けられていて、西洋ならLineアカウント削除姫という童話として後世に語り継がれるぐらいには深刻な問題になっている。Googleアカウントやメールアドレスを削除するのはかろうじて留まっているが、いつ呪いがすべてのアカウントを消去するのかは定かで無い。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ステラ女学院高等科C3部の感想文。</title>
+      <link>https://maborotopia.github.io/post/20190609001914_c3/</link>
+      <pubDate>Fri, 06 Sep 2019 00:19:14 +0900</pubDate>
+      
+      <guid>https://maborotopia.github.io/post/20190609001914_c3/</guid>
+      <description>&lt;p&gt;ステラ女学院高等科C3部(しーきゅーぶ)を観たのだが、最高の百合アニメだった。ネットでは爆死したクソアニメ扱いなのだが、主人公が闇堕ちする後半から最終回（※12話）までは終始泣きっぱなしでゆらちゃんに感情移入していた。&lt;br /&gt;
+どこに感情移入したのかというと、ゆらの自我観念の薄さだった。&lt;br /&gt;
+大和ゆらのキャラクターは方向性がぶれまくるのだが、これは彼女が一生懸命に環境に適応しようとした結果だ。自閉症スペクトラル気味だと自我の観念が薄いので、自分自身を環境に合わせて最適化させてしまう。自分がどうしたいのかではなくて、この場所で望まれているだろうと自分で勝手に思い込んだイメージに向かって、全力で猛突進していく。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>GAFAやTwitterは広告主しか見ていない。</title>
@@ -20,6 +41,19 @@
       <guid>https://maborotopia.github.io/post/20192108094738/</guid>
       <description>&lt;p&gt;広告収入が主な収益源になれば、検索結果が役に立たないものであったほうが都合がいい。検索しても望む結果は得られないし、複雑怪奇なページランキングを理解してSEO対策をするのも骨が折れる。そんなことに労力を使うぐらいならば広告料を払いましょう！……と促すのがインターネット企業の基本戦略だ。&lt;br /&gt;
 検索結果がノイズだらけになったり、ログが簡単に埋もれるようになれば相対的に広告やプロモーションの価値が上がる。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>リソース最適化ゲームとしてのFinal Fantasy XII</title>
+      <link>https://maborotopia.github.io/post/20191808133528_ff12/</link>
+      <pubDate>Sun, 18 Aug 2019 13:35:28 +0900</pubDate>
+      
+      <guid>https://maborotopia.github.io/post/20191808133528_ff12/</guid>
+      <description>&lt;p&gt;リソースを最適化することから得られる快楽がFF12の醍醐味で、ユーザーは限られたリソースを効率的に運用してリターンを得なければならない。単調な稼ぎを繰り返して最高の装備で身を固め、すべてのライセンスを取得して最強キャラを育成するのは邪道だ。&lt;br /&gt;
+限られた持ち物から最適な装備品の組み合わせ、ライセンスの取得、立ち回りやガンビットの設定を組み立てることの方がおもしろい。盾役に防御力の高い装備を重点的に支給して、それ以外のキャラは初期装備でもなんとかなる。&lt;br /&gt;
+オリジナル版のFF12は、MPの足りなさや金策の乏しさ、経験値を稼いでごり押しすることが批判されるのだが、リソースの最適化を行わないでプレイしていれば自ずとそうなる。&lt;br /&gt;
+FF12はリソースマネジメントゲームで、限られた資源を最適化して最大限の効果を生み出すことがユーザーに求められる。パーティ全員分の防具をそろえるお金が無くても、「じゃあ一人にいい防具を装備させて、そいつに敵の攻撃を全部集中させるような戦略を立てよう」「アタッカー用に性能のいい武器を買って、攻撃に集中できるような環境を作り出そう」という発想で、リソースを最適化させていく。
+目に見えるステータスに変化がなくても、行動から無駄が省かれ、役割が最適化することで消費MPやアイテム、装備に使うお金が少なくなり、より快適に探索できるようになる。その工夫の部分がおもしろい。&lt;/p&gt;</description>
     </item>
     
     <item>

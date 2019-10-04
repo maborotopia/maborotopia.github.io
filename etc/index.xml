@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Maborotopia</copyright>
-    <lastBuildDate>Fri, 03 May 2019 14:37:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Sep 2019 18:40:25 +0000</lastBuildDate>
     
 	<atom:link href="https://maborotopia.github.io/etc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ubuntu 19.04でStyle2paintsを動かす</title>
+      <link>https://maborotopia.github.io/etc/009_style2paints/</link>
+      <pubDate>Thu, 26 Sep 2019 18:40:25 +0000</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/009_style2paints/</guid>
+      <description>&lt;p&gt;Style2paintsは人工知能でイラストの彩色を行うツールだ。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>The Krita color palette of copic&#39;s 322 colors</title>

@@ -1,0 +1,39 @@
+
+
+
+body {
+
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  padding: 20px;
+  text-align: left;
+  font-weight: 900;
+  color:#e6e6e6;
+  background:#404040;
+  font-family: arial;
+  position: relative;
+
+}
+
+/* unvisited link */
+a:link {
+    color: b5c7ff;
+}
+
+/* visited link */
+a:visited {
+    color: c1c1c1;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}

@@ -264,7 +264,7 @@ blockquote blockquote blockquote blockquote {
 }
 
 .toc {
-  float: right;
+  float: center;
   padding: 4px;
   margin: 0;
   margin-left: 10px;

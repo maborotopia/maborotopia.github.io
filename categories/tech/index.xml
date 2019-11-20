@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech on Maborotopia</title>
+    <title>tech on Maborotopia</title>
     <link>https://maborotopia.github.io/categories/tech/</link>
-    <description>Recent content in Tech on Maborotopia</description>
+    <description>Recent content in tech on Maborotopia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Maborotopia</copyright>

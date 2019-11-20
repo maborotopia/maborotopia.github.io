@@ -3,13 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://maborotopia.github.io/</loc>
+    <lastmod>2019-11-21T03:09:32+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maborotopia.github.io/diary_04/</loc>
-    <lastmod>2019-10-19T16:09:32+00:00</lastmod>
+    <lastmod>2019-11-21T03:09:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/</loc>
+    <lastmod>2019-11-17T08:30:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20192908083024_eroge_op/</loc>
+    <lastmod>2019-11-17T08:30:24+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://maborotopia.github.io/diary_03/</loc>
     <lastmod>2019-10-04T17:09:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/categories/</loc>
+    <lastmod>2019-09-26T18:40:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/etc/</loc>
+    <lastmod>2019-09-26T18:40:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/categories/tech/</loc>
+    <lastmod>2019-09-26T18:40:25+00:00</lastmod>
   </url>
   
   <url>
@@ -303,6 +333,11 @@
   </url>
   
   <url>
+    <loc>https://maborotopia.github.io/lunatic/</loc>
+    <lastmod>2018-06-03T01:36:54+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maborotopia.github.io/lunatic/007/</loc>
     <lastmod>2018-06-03T01:36:54+00:00</lastmod>
   </url>
@@ -373,6 +408,11 @@
   </url>
   
   <url>
+    <loc>https://maborotopia.github.io/categories/%E5%A4%A2%E6%97%A5%E8%A8%98/</loc>
+    <lastmod>2018-05-20T04:53:45+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maborotopia.github.io/post/yume/</loc>
     <lastmod>2018-05-20T04:53:45+00:00</lastmod>
   </url>
@@ -380,6 +420,11 @@
   <url>
     <loc>https://maborotopia.github.io/post/040_sutero/</loc>
     <lastmod>2018-05-07T11:04:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/categories/lunatic/</loc>
+    <lastmod>2018-05-06T14:42:18+00:00</lastmod>
   </url>
   
   <url>
@@ -674,34 +719,6 @@
   
   <url>
     <loc>https://maborotopia.github.io/archives/</loc>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/etc/</loc>
-    <lastmod>2019-09-26T18:40:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/categories/lunatic/</loc>
-    <lastmod>2018-05-06T14:42:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/lunatic/</loc>
-    <lastmod>2018-06-03T01:36:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/</loc>
-    <lastmod>2019-10-19T16:09:32+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -714,31 +731,11 @@
   </url>
   
   <url>
-    <loc>https://maborotopia.github.io/post/</loc>
-    <lastmod>2019-09-06T00:19:14+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://maborotopia.github.io/series/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://maborotopia.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/categories/tech/</loc>
-    <lastmod>2019-09-26T18:40:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/categories/%E5%A4%A2%E6%97%A5%E8%A8%98/</loc>
-    <lastmod>2018-05-20T04:53:45+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

@@ -6,11 +6,22 @@
     <description>Recent content in tech on Maborotopia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; Copyright 2019 Maborotopia</copyright>
-    <lastBuildDate>Thu, 26 Sep 2019 18:40:25 +0000</lastBuildDate>
+    <copyright>&amp;copy; Copyright 2020 Maborotopia</copyright>
+    <lastBuildDate>Mon, 23 Dec 2019 00:17:25 +0000</lastBuildDate>
     
 	<atom:link href="https://maborotopia.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AndroidにLineage OSをインストールしてGoogleフリーの端末にする。</title>
+      <link>https://maborotopia.github.io/etc/005_decentralized_android/</link>
+      <pubDate>Mon, 23 Dec 2019 00:17:25 +0000</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/005_decentralized_android/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://lineageos.org/&#34;&gt;LineageOS – LineageOS Android Distribution&lt;/a&gt;&lt;br /&gt;
+Lineage OSはAndroidのカスタムROMだ。プライバシーを重視するユーザーはLineageOSなどのカスタムROMを導入して、Googleのサービスに別れを告げる。Googleアカウントを登録しなくてもAndroidが使えることや、自由にカスタマイズができる点、余分なアプリが入っていない点が特徴のカスタムROMだ。&lt;br /&gt;
+デメリットとしては、導入の敷居が高い、保証が無効になる、最悪の場合文鎮化して起動しなくなる、日本製の端末はほとんどカスタムROMに対応していないので海外端末を手に入れる必要がある……などの壁を乗り越える必要がある。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Ubuntu 19.04でStyle2paintsを動かす</title>

@@ -4,42 +4,317 @@
   
   <url>
     <loc>https://maborotopia.github.io/</loc>
-    <lastmod>2019-11-21T03:09:32+00:00</lastmod>
+    <lastmod>2020-02-15T19:13:32+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://maborotopia.github.io/diary_04/</loc>
-    <lastmod>2019-11-21T03:09:32+00:00</lastmod>
+    <lastmod>2020-02-15T19:13:32+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://maborotopia.github.io/post/</loc>
-    <lastmod>2019-11-17T08:30:24+09:00</lastmod>
+    <lastmod>2020-01-06T17:39:32+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601173932_madness/</loc>
+    <lastmod>2020-01-06T17:39:32+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601165507/</loc>
+    <lastmod>2020-01-06T16:55:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601165304/</loc>
+    <lastmod>2020-01-06T16:53:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601162508/</loc>
+    <lastmod>2020-01-06T16:25:08+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601162245_fairness/</loc>
+    <lastmod>2020-01-06T16:22:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601162011/</loc>
+    <lastmod>2020-01-06T16:20:11+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601155715/</loc>
+    <lastmod>2020-01-06T15:57:15+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601155313/</loc>
+    <lastmod>2020-01-06T15:53:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601153140_personalized_real/</loc>
+    <lastmod>2020-01-06T15:31:40+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601143653_poli_blocker/</loc>
+    <lastmod>2020-01-06T14:36:53+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601143452_katsudon/</loc>
+    <lastmod>2020-01-06T14:34:52+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601142528_poli_tools/</loc>
+    <lastmod>2020-01-06T14:25:28+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601142253/</loc>
+    <lastmod>2020-01-06T14:22:53+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601142126/</loc>
+    <lastmod>2020-01-06T14:21:26+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601141921/</loc>
+    <lastmod>2020-01-06T14:19:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200601141453_hate_tcg/</loc>
+    <lastmod>2020-01-06T14:14:53+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501222151/</loc>
+    <lastmod>2020-01-05T22:21:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501221757_lubuntu/</loc>
+    <lastmod>2020-01-05T22:17:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501210948_tinpiro/</loc>
+    <lastmod>2020-01-05T21:09:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501190659_disney/</loc>
+    <lastmod>2020-01-05T19:06:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501185415_internet_quest/</loc>
+    <lastmod>2020-01-05T18:54:15+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501184506/</loc>
+    <lastmod>2020-01-05T18:45:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501173843/</loc>
+    <lastmod>2020-01-05T17:38:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501173228/</loc>
+    <lastmod>2020-01-05T17:32:28+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501172533/</loc>
+    <lastmod>2020-01-05T17:25:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501171317_game/</loc>
+    <lastmod>2020-01-05T17:13:17+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/etc/</loc>
+    <lastmod>2020-01-05T16:42:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/etc/20200501164224_lifehack/</loc>
+    <lastmod>2020-01-05T16:42:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501135234/</loc>
+    <lastmod>2020-01-05T13:52:34+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501134740_dunning-kruger/</loc>
+    <lastmod>2020-01-05T13:47:40+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501134558/</loc>
+    <lastmod>2020-01-05T13:45:58+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501132450_anger/</loc>
+    <lastmod>2020-01-05T13:24:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501131014_minimum/</loc>
+    <lastmod>2020-01-05T13:10:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501123108_wug/</loc>
+    <lastmod>2020-01-05T12:31:08+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501015933_kurayami_otoko/</loc>
+    <lastmod>2020-01-05T01:59:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501015552_as_arts/</loc>
+    <lastmod>2020-01-05T01:55:52+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501012025_democracy/</loc>
+    <lastmod>2020-01-05T01:20:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501005556_toruneko_siren/</loc>
+    <lastmod>2020-01-05T00:55:56+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200501000616_demichan/</loc>
+    <lastmod>2020-01-05T00:06:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200401235504_precure_memo/</loc>
+    <lastmod>2020-01-04T23:55:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200401202247_attention/</loc>
+    <lastmod>2020-01-04T20:22:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20192412020005_metoo/</loc>
+    <lastmod>2020-01-04T19:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200401180121_english/</loc>
+    <lastmod>2020-01-04T18:01:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200401174721_internet_zakki/</loc>
+    <lastmod>2020-01-04T17:47:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20200401211107_sodom/</loc>
+    <lastmod>2020-01-01T21:11:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20192412015106_darkgaming/</loc>
+    <lastmod>2019-12-24T01:51:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20192412014632_politics/</loc>
+    <lastmod>2019-12-24T01:46:32+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20192412013946_yuri_kiss_verse/</loc>
+    <lastmod>2019-12-24T01:39:46+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20192312190657_igo_for_m/</loc>
+    <lastmod>2019-12-23T19:06:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/etc/20192312163707_privacy_app/</loc>
+    <lastmod>2019-12-23T16:37:08+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/etc/20192312155025_easy_privacy_app/</loc>
+    <lastmod>2019-12-23T15:50:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/etc/005_decentralized_android/</loc>
+    <lastmod>2019-12-23T00:17:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/categories/</loc>
+    <lastmod>2019-12-23T00:17:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/categories/tech/</loc>
+    <lastmod>2019-12-23T00:17:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20191512061420_yurinii02/</loc>
+    <lastmod>2019-12-15T06:14:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20190112135509_yurinii/</loc>
+    <lastmod>2019-12-01T13:55:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20190112115930_hannya/</loc>
+    <lastmod>2019-12-01T11:59:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20190112112723_dry/</loc>
+    <lastmod>2019-12-01T11:27:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20192909122442_igo/</loc>
+    <lastmod>2019-11-22T12:24:42+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://maborotopia.github.io/post/20192908083024_eroge_op/</loc>
     <lastmod>2019-11-17T08:30:24+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/diary_03/</loc>
-    <lastmod>2019-10-04T17:09:32+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/categories/</loc>
-    <lastmod>2019-09-26T18:40:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/etc/</loc>
-    <lastmod>2019-09-26T18:40:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/categories/tech/</loc>
-    <lastmod>2019-09-26T18:40:25+00:00</lastmod>
   </url>
   
   <url>
@@ -68,13 +343,8 @@
   </url>
   
   <url>
-    <loc>https://maborotopia.github.io/post/20191508050820_filtering/</loc>
+    <loc>https://maborotopia.github.io/etc/20191508050820_filtering/</loc>
     <lastmod>2019-08-15T05:08:20+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/post/20192707085033/</loc>
-    <lastmod>2019-07-27T08:50:33+09:00</lastmod>
   </url>
   
   <url>
@@ -173,11 +443,6 @@
   </url>
   
   <url>
-    <loc>https://maborotopia.github.io/post/099_diary02/</loc>
-    <lastmod>2019-01-11T11:00:12+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://maborotopia.github.io/post/098/</loc>
     <lastmod>2019-01-11T10:28:50+09:00</lastmod>
   </url>
@@ -185,11 +450,6 @@
   <url>
     <loc>https://maborotopia.github.io/post/097/</loc>
     <lastmod>2019-01-11T10:21:11+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/post/096_diary01/</loc>
-    <lastmod>2019-01-11T01:28:59+09:00</lastmod>
   </url>
   
   <url>
@@ -424,12 +684,7 @@
   
   <url>
     <loc>https://maborotopia.github.io/categories/lunatic/</loc>
-    <lastmod>2018-05-06T14:42:18+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/lunatic/004/</loc>
-    <lastmod>2018-05-06T14:42:18+00:00</lastmod>
+    <lastmod>2018-05-06T13:09:16+00:00</lastmod>
   </url>
   
   <url>
@@ -703,6 +958,16 @@
   </url>
   
   <url>
+    <loc>https://maborotopia.github.io/post/20200501162328_youjo_isekai/</loc>
+    <lastmod>2018-01-05T16:23:28+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/etc/maborotopia_bookmark/</loc>
+    <lastmod>0001-05-06T14:09:32+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maborotopia.github.io/about_02/</loc>
     <lastmod>0001-05-06T14:09:31+00:00</lastmod>
   </url>
@@ -718,16 +983,17 @@
   </url>
   
   <url>
+    <loc>https://maborotopia.github.io/lc_index/</loc>
+    <lastmod>0001-02-16T02:28:55+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maborotopia.github.io/archives/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://maborotopia.github.io/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/about/about_maboro/</loc>
   </url>
   
   <url>

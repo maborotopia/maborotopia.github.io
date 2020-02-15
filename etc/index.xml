@@ -6,11 +6,50 @@
     <description>Recent content in Etcs on Maborotopia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; Copyright 2019 Maborotopia</copyright>
-    <lastBuildDate>Thu, 26 Sep 2019 18:40:25 +0000</lastBuildDate>
+    <copyright>&amp;copy; Copyright 2020 Maborotopia</copyright>
+    <lastBuildDate>Sun, 05 Jan 2020 16:42:24 +0900</lastBuildDate>
     
 	<atom:link href="https://maborotopia.github.io/etc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lifehack</title>
+      <link>https://maborotopia.github.io/etc/20200501164224_lifehack/</link>
+      <pubDate>Sun, 05 Jan 2020 16:42:24 +0900</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/20200501164224_lifehack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>プライバシー保護中級編</title>
+      <link>https://maborotopia.github.io/etc/20192312163707_privacy_app/</link>
+      <pubDate>Mon, 23 Dec 2019 16:37:08 +0900</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/20192312163707_privacy_app/</guid>
+      <description>&lt;p&gt;この記事では個人情報とプライバシーを守るために有用なツールやサービスを紹介している。&lt;br /&gt;
+基本的なPC技術と簡単な英語が読めるレベルを想定しているが、アプリケーション自体は日本語に対応している場合も多いので、そこまで気負う必要はない。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>考えるのが面倒くさい人のためのプライバシー保護アプリ</title>
+      <link>https://maborotopia.github.io/etc/20192312155025_easy_privacy_app/</link>
+      <pubDate>Mon, 23 Dec 2019 15:50:25 +0900</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/20192312155025_easy_privacy_app/</guid>
+      <description>&lt;p&gt;今使っているアプリやサービスを変えるだけで、ある程度は個人情報を保護できるようになります。日本語に対応していて、アプリのインストールだけで導入できるものを集めました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AndroidにLineage OSをインストールしてGoogleフリーの端末にする。</title>
+      <link>https://maborotopia.github.io/etc/005_decentralized_android/</link>
+      <pubDate>Mon, 23 Dec 2019 00:17:25 +0000</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/005_decentralized_android/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://lineageos.org/&#34;&gt;LineageOS – LineageOS Android Distribution&lt;/a&gt;&lt;br /&gt;
+Lineage OSはAndroidのカスタムROMだ。プライバシーを重視するユーザーはLineageOSなどのカスタムROMを導入して、Googleのサービスに別れを告げる。Googleアカウントを登録しなくてもAndroidが使えることや、自由にカスタマイズができる点、余分なアプリが入っていない点が特徴のカスタムROMだ。&lt;br /&gt;
+デメリットとしては、導入の敷居が高い、保証が無効になる、最悪の場合文鎮化して起動しなくなる、日本製の端末はほとんどカスタムROMに対応していないので海外端末を手に入れる必要がある……などの壁を乗り越える必要がある。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Ubuntu 19.04でStyle2paintsを動かす</title>
@@ -19,6 +58,25 @@
       
       <guid>https://maborotopia.github.io/etc/009_style2paints/</guid>
       <description>&lt;p&gt;Style2paintsは人工知能でイラストの彩色を行うツールだ。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>フィルタリング戦記タクティクス</title>
+      <link>https://maborotopia.github.io/etc/20191508050820_filtering/</link>
+      <pubDate>Thu, 15 Aug 2019 05:08:20 +0900</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/20191508050820_filtering/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Certain things catch your eye, But pursue only those that capture your heart.&lt;br /&gt;
+目を奪われるものがたくさんあるだろう。しかし、心奪われるものだけを追い求めなさい。&lt;br /&gt;
+『ネイティブアメリカンのことわざ』&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;・スルー力は有限リソースである。&lt;/strong&gt;&lt;br /&gt;
+このエントリでは日々使っているフィルタリング方法を紹介する。&lt;br /&gt;
+古のインターネットユーザーは「スルー力が大事」だと口を酸っぱくして私たちに教えた。それは真実ではあるのだが、スルー力には限りがあって使うたびに失われていく。それを念頭に置かなければ、スルー力が尽きてインターネットの暗黒面に取り込まれる。&lt;br /&gt;
+不快な言説に反応しないための忍耐力は消耗品だ。スルーすることが大事だと言われても、目に入った時点で注意力を奪われてしまう。自制心を働かせ、注意深く振る舞い、行動を律さなければならないような状態に追い込まれてしまった時点ですでに劣勢に追い込まれている。&lt;br /&gt;
+ここではフィルタリングを用いて精神衛生を害するコンテンツを遠ざけ、スルー力の摩耗を抑える方法についてまとめておく。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -58,23 +116,13 @@ The Watercolor Brush inspire by Painter 6 I loved the watercolor brush of Painte
       
       <guid>https://maborotopia.github.io/etc/privacy/</guid>
       <description>&amp;ldquo;If you are not paying for the product, you are the product.&amp;rdquo;
-考えるのが面倒くさい人のためのプライバシー保護アプリ＆検索エンジン。 基本的に今使っているアプリやサービスを変えるだけで、ある程度は個人情報を保護できるようになります。日本語に対応していて、アプリのインストールだけで導入できるものを集めました。
-・ブラウザを変える。
-Brave Browser: ファーストAdBlocker - Google Play のアプリ
-‎「Brave Browser: Fast AdBlocker」をApp Storeで
-・プライバシーに配慮したメールアカウントを取得する。
-ProtonMail - Encrypted Email - Google Play のアプリ
-‎「ProtonMail - Encrypted Email」をApp Storeで
-・検索エンジンを変える。
-StartPage Search Engine
-DuckDuckGo — Privacy, simplified.
-・位置情報を収集されない地図アプリを使う
-OpenStreetMap Japan | 自由な地図をみんなの手に/The Free Wiki World Map
-アプリ版はデータのダウンロード量が大きいので、ブラウザ版を使っています。
-・パスワード管理アプリを使用する。
-Keepass2Android Password Safe - Google Play のアプリ
-・セキュアなメッセンジャーを使う。
-Signal Private Messenger - Google Play のアプリ</description>
+・オープンソースソフトウェア実践編 ・脱Googleを目指すために読んでおくべきページ
+ De-google-ify Internet What FOSS apps are you using? : Android
+ Liberate Your Device - Free Your Android! - FSFE
+ PRISM、XKeyscore、Tempora などの世界規模のデータ監視プログラムを拒否しよう - PRISM Break - PRISM Break
+ Home | Me and my Shadow
+  ・資料編 ・どうしてプライバシーを守るべきなのか？ 参考資料  オープンソースソフトウェアとは - IT用語辞典 Weblio辞書
+ Privacy Tools - Encryption Against Global Mass Surveillance</description>
     </item>
     
     <item>
@@ -136,6 +184,15 @@ iOS　&lt;a href=&#34;https://chatsecure.org/&#34;&gt;chatsecure.github.io&lt;/a
       <guid>https://maborotopia.github.io/etc/001_android_oreo/</guid>
       <description>&lt;p&gt;Androidも初期設定のままでは、微妙な場所で電力を無駄に消費している場合がある。この項目ではこれまでに自分が試したバッテリー節約方法をまとめてある。英語UIを使っているが、日本語でもなんとなくわかるはずだ。わからなかったら検索しよう。&lt;br /&gt;
 おれはAndroidのスマホを買う度に、動作が安定するまでにwifi経由でgoogleに呪詛の念を向けている。バージョンが変わるたびに設定方法が変わって面倒になるが、基本的な考え方は一緒だ。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Maborotopia_bookmark</title>
+      <link>https://maborotopia.github.io/etc/maborotopia_bookmark/</link>
+      <pubDate>Sun, 06 May 0001 14:09:32 +0000</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/maborotopia_bookmark/</guid>
+      <description></description>
     </item>
     
   </channel>

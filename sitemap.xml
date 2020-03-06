@@ -3,18 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://maborotopia.github.io/etc/</loc>
+    <lastmod>2020-03-01T17:45:06+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maborotopia.github.io/</loc>
-    <lastmod>2020-02-22T19:13:32+00:00</lastmod>
+    <lastmod>2020-03-01T17:45:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/etc/20200103174506shin_jis_extension/</loc>
+    <lastmod>2020-03-01T17:45:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/etc/20200229_shin_jis_koyubi/</loc>
+    <lastmod>2020-02-29T13:55:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/</loc>
+    <lastmod>2020-02-24T00:55:19+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maborotopia.github.io/post/20202402005518_covid19/</loc>
+    <lastmod>2020-02-24T00:55:19+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://maborotopia.github.io/diary_04/</loc>
     <lastmod>2020-02-22T19:13:32+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/post/</loc>
-    <lastmod>2020-02-19T23:55:04+09:00</lastmod>
   </url>
   
   <url>
@@ -150,11 +170,6 @@
   <url>
     <loc>https://maborotopia.github.io/post/20200501171317_game/</loc>
     <lastmod>2020-01-05T17:13:17+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maborotopia.github.io/etc/</loc>
-    <lastmod>2020-01-05T16:42:24+09:00</lastmod>
   </url>
   
   <url>

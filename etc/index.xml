@@ -7,10 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2020 Maborotopia</copyright>
-    <lastBuildDate>Sun, 05 Jan 2020 16:42:24 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 17:45:06 +0900</lastBuildDate>
     
 	<atom:link href="https://maborotopia.github.io/etc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>拡張-新JIS配列</title>
+      <link>https://maborotopia.github.io/etc/20200103174506shin_jis_extension/</link>
+      <pubDate>Sun, 01 Mar 2020 17:45:06 +0900</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/20200103174506shin_jis_extension/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;※この配列は現在、人体実験中のものです。素の新JIS配列以外の拡張については未だに手探りの段階なので、ご利用の場合はご注意ください。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;拡張-新JIS配列は、使用者のスキルや環境に応じて機能を拡張していくという日本語入力である。ブラウザの拡張機能のように日本語入力方法を変化させていくので、拡張-新JIS配列と呼ぶ。&lt;br /&gt;
+最初に学習負担の少ない配列を習得した後に、様々な拡充やカスタマイズを行うことで、柔軟性の高い文字入力を可能とする方式である。&lt;br /&gt;
+学習コストの小分けによる習得難易度の低下、上級者向けの効率化、どのような環境にも対応できる汎用性の融合をコンセプトにしている。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>新JIS配列・右小指負担軽減版</title>
+      <link>https://maborotopia.github.io/etc/20200229_shin_jis_koyubi/</link>
+      <pubDate>Sat, 29 Feb 2020 13:55:32 +0000</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/20200229_shin_jis_koyubi/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://maborotopia.github.io/img/shin_JIS_koyubi.jpg&#34; alt=&#34;shin_JIS_koyubi.jpg&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;・コンセプト&lt;/strong&gt;&lt;br /&gt;
+・右小指の負担軽減&lt;br /&gt;
+新JIS配列では右手小指にかかる運動量と負担が大きいと個人的には感じている。その欠点を軽減するために、「ち」「な」「れ」を別の場所に移動し、小指に掛かる負担を減らすことを目的としている。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Lifehack</title>

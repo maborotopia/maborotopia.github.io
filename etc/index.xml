@@ -7,35 +7,68 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2020 Maborotopia</copyright>
-    <lastBuildDate>Sun, 01 Mar 2020 17:45:06 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2020 17:45:06 +0900</lastBuildDate>
     
 	<atom:link href="https://maborotopia.github.io/etc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>拡張-新JIS配列</title>
-      <link>https://maborotopia.github.io/etc/20200103174506shin_jis_extension/</link>
-      <pubDate>Sun, 01 Mar 2020 17:45:06 +0900</pubDate>
+      <title>拡張新JIS配列の系譜</title>
+      <link>https://maborotopia.github.io/etc/20200104174506shin_jis_log/</link>
+      <pubDate>Wed, 22 Apr 2020 17:45:06 +0900</pubDate>
       
-      <guid>https://maborotopia.github.io/etc/20200103174506shin_jis_extension/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;※この配列は現在、人体実験中のものです。素の新JIS配列以外の拡張については未だに手探りの段階なので、ご利用の場合はご注意ください。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;拡張-新JIS配列は、使用者のスキルや環境に応じて機能を拡張していくという日本語入力である。ブラウザの拡張機能のように日本語入力方法を変化させていくので、拡張-新JIS配列と呼ぶ。&lt;br /&gt;
-最初に学習負担の少ない配列を習得した後に、様々な拡充やカスタマイズを行うことで、柔軟性の高い文字入力を可能とする方式である。&lt;br /&gt;
-学習コストの小分けによる習得難易度の低下、上級者向けの効率化、どのような環境にも対応できる汎用性の融合をコンセプトにしている。&lt;/p&gt;</description>
+      <guid>https://maborotopia.github.io/etc/20200104174506shin_jis_log/</guid>
+      <description>この項目では拡張新JIS配列をどのようにして改造していったのかについての軌跡をまとめてある。配列沼の住人向けの記事なので興味の無い人には全く意味がわからない文章だ。
+ここで紹介している配列はあくまでも、自分がどういった理由で配列沼をさまよっていたのかという軌跡でしかない。自分の指や環境に合わせて柔軟に配列を組み立てていく方法論こそが、拡張新JIS配列の本体だと考えている。
+・新JIS配列 何も手を加えていない状態の新JIS配列。
+ /* 文字キーを単独で入力 */
+[
+１|２|３|４|５|６|７|８|９|０|－|＾|￥|
+そ|け|せ|て|ょ|つ|ん|の|を|り|ち| |
+は|か|し|と|た|く|う|い|゛|き|な| |
+す|こ|に|さ|あ|っ|る|、|。|れ| |
+]
+/* [shift] + 文字キー */
+-shift[
+！|”|＃|＄|％|＆|’|（|）|＿|＝|～|｜|
+ぁ|゜|ほ|ふ|め|ひ|え|み|や|ぬ|「| |
+ぃ|へ|ら|ゅ|よ|ま|お|も|わ|ゆ|」| |
+ぅ|ぇ|ぉ|ね|ゃ|む|ろ|・|ー| | |
+{shift}|
+ ・新JIS配列小指負担軽減版 配列沼に足を踏み入れることになった記念碑的配列。「小指の負担になる文字を別の場所に移動すれば良いのではないか？」と漠然と思っただけなのに、気がついたときには深みにはまって帰ってこれなくなった。
+ここから長い旅が始まったのだ……。
+ /* 文字キーを単独で入力 */
+[
+１|２|３|４|５|６|７|８|９|０|－|＾|￥|
+そ|け|せ|て|ょ|つ|ん|の|を|り|、| |
+は|か|し|と|た|く|う|い|゛|き|゜| |
+す|こ|に|さ|あ|っ|る|。|れ| | |
+]
+/* [shift] + 文字キー */
+-shift[
+！|”|＃|＄|％|＆|’|（|）|＿|＝|～|｜|
+ぁ|ち|ほ|ふ|め|ひ|え|み|や|ぬ|「| |
+な|へ|ら|ゅ|よ|ま|お|も|わ|ゆ|ぃ| |
+ぅ|ぇ|ぉ|ね|ゃ|む|ろ|・|ー| | |
+{shift}|
+]
+ ・新月JIS配列 月配列で良いなと思った配列を取り入れ始める。これ以外にも「な」をCapslockに割り当てたものが存在する。配列迷走期である。</description>
     </item>
     
     <item>
-      <title>新JIS配列・右小指負担軽減版</title>
-      <link>https://maborotopia.github.io/etc/20200229_shin_jis_koyubi/</link>
-      <pubDate>Sat, 29 Feb 2020 13:55:32 +0000</pubDate>
+      <title>拡張-新JIS配列</title>
+      <link>https://maborotopia.github.io/etc/20200103174506shin_jis_extension/</link>
+      <pubDate>Sat, 04 Apr 2020 17:45:06 +0900</pubDate>
       
-      <guid>https://maborotopia.github.io/etc/20200229_shin_jis_koyubi/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://maborotopia.github.io/img/shin_JIS_koyubi.jpg&#34; alt=&#34;shin_JIS_koyubi.jpg&#34; /&gt;&lt;/p&gt;
+      <guid>https://maborotopia.github.io/etc/20200103174506shin_jis_extension/</guid>
+      <description>&lt;h3 id=&#34;拡張-新jis配列&#34;&gt;・拡張-新JIS配列&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;・コンセプト&lt;/strong&gt;&lt;br /&gt;
-・右小指の負担軽減&lt;br /&gt;
-新JIS配列では右手小指にかかる運動量と負担が大きいと個人的には感じている。その欠点を軽減するために、「ち」「な」「れ」を別の場所に移動し、小指に掛かる負担を減らすことを目的としている。&lt;/p&gt;</description>
+&lt;p&gt;新JIS配列をベースにして、快適に入力できるように調整された配列。右薬指同時打鍵を導入しているので、濁音を単打感覚で入力できる。&lt;br /&gt;
+新JIS配列を使っているときに感じた不満点を解消するために生まれたものなので、初めての方は素の新JIS配列から習得することを強く推奨する。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://maborotopia.github.io/img/Shin_JIS/ex_shin_jis_1.05.jpg&#34; alt=&#34;shin_JIS&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;https://maborotopia.github.io/img/Shin_JIS/ex_shin_jis_1.05_matrix.jpg&#34; alt=&#34;shin_JIS&#34; /&gt;&lt;br /&gt;
+* &lt;a href=&#34;https://ja.wikipedia.org/wiki/%E6%96%B0JIS%E9%85%8D%E5%88%97&#34;&gt;新JIS配列 - Wikipedia&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

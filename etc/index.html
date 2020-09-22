@@ -11,7 +11,7 @@
   <meta property="og:url" content="/etc/" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.57.2" />
+  <meta name="generator" content="Hugo 0.68.3" />
   <link href="/etc/index.xml" rel="alternate" type="application/rss+xml" title="Maborotopia" />
   <link href="/etc/index.xml" rel="feed" type="application/rss+xml" title="Maborotopia" />
   <link rel="stylesheet" href="/css/style.css" media="all" />
@@ -41,6 +41,39 @@
   <div class="main" role="main">
     <section class="list section-list">
       <article class="article">
+        <a href="/etc/20200922_linux_xp_atok/" class="article-titles">
+          <h2 class="article-title">Linuxの仮想環境でAtokを使う。</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>September 20, 2020</time></li>
+        </ul>
+        <div class="article-content">
+          <p><img src="/img/screen-2020-09-22-14-58-37.jpg" alt="Alt text"></p>
+<p>Linux環境下で快適に日本語が入力できる環境を追求した結果、「VirtualboxにWindows XP環境を作り、Atokをインストールして、やまぶきやDvorakJで配列を変更する」方法に落ち着いた。<br>
+親指シフトや新JIS配列といったマイナーな日本語配列を使い続けるのは年々難しくなりつつある。配列変更ソフトは長らく更新が止まっていて、Windows10の更新内容によっては突然使えなくなる可能性もゼロでは無い。富士通は親指シフトのサポート終了を発表したし、かえうちや自作キーボードを使うのはハードルが高い。<br>
+LinuxはというとMozcの登場で多少ましになったとはいえ、Google日本語入力に比べると雲泥の差がある。Google日本語入力用の変換辞書は搭載されていないため、文脈に応じて賢く変換結果を変えるような芸当はいまのところできない。変換精度が変換制度になるような変換精度だ。<br>
+Mozcの強化辞書版をビルドしたり、WineでAtokを動かそうと四苦八苦していたのだが、最終的に「VirtualboxにWindows XP環境を作り、Atokをインストールして、DvorakJややまぶきで配列を変更する」ことで快適な日本語入力環境を手に入れるに至った。</p>
+<hr>
+<h3 id="方法">・方法</h3>
+<p>・参考までに方法を記しておく。<br>
+・Windows XPは古いパソコンのリカバリーディスクを使った。無ければオークションやフリマサイトで探すのも手だ。日本語入力をするだけなので、Virtualboxに割り当てるメモリが256MB程度でも十分に動く。<br>
+・Atokの過去バージョンをなんとかして手に入れる。Windows XP SP3はAtok2014までなら対応している。<br>
+・場合によってはWindows 7でもいいかも知れない。<br>
+・オフライン状態で使うので、セキュリティの問題は関係が無い。<br>
+・ネットワークドライブとしてLinuxのフォルダを割り当てられるので、保存したテキストをDropboxやNextcloudでバックアップできる。<br>
+・UnicodeとShift-JISの文字コード、改行の問題が発生するので、MeryやTerapadなどの高機能なテキストエディタを使おう。<br>
+・標準のフォントが汚いので、GoogleのNotoフォントを入れる。<br>
+・Seamlessモードで使うと、Linuxのデスクトップ環境と一体化するので使いやすくなる。<br>
+・OSの更新にあまり左右されない。<br>
+・理論上はVirtualboxのサポートが終了するまで同じ日本語入力環境を使い続けられる。<br>
+・英語の入力環境だと簡単にDvorakとかColemak、Workmanといった配列が選べるのに、どうして日本語を入力するときにはこんなに苦しまなければならないのか。</p>
+
+        </div>
+        <div class="article-readmore"><a href="/etc/20200922_linux_xp_atok/">Read more...</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
         <a href="/etc/20200104174506shin_jis_log/" class="article-titles">
           <h2 class="article-title">拡張新JIS配列の系譜</h2>
           
@@ -66,7 +99,7 @@
 ぃ|へ|ら|ゅ|よ|ま|お|も|わ|ゆ|」| |
 ぅ|ぇ|ぉ|ね|ゃ|む|ろ|・|ー| | |
 {shift}|
- ・新JIS配列小指負担軽減版 配列沼に足を踏み入れることになった記念碑的配列。「小指の負担になる文字を別の場所に移動すれば良いのではないか？」と漠然と思っただけなのに、気がついたときには深みにはまって帰ってこれなくなった。
+  ・新JIS配列小指負担軽減版 配列沼に足を踏み入れることになった記念碑的配列。「小指の負担になる文字を別の場所に移動すれば良いのではないか？」と漠然と思っただけなのに、気がついたときには深みにはまって帰ってこれなくなった。
 ここから長い旅が始まったのだ……。
  /* 文字キーを単独で入力 */
 [
@@ -83,7 +116,7 @@
 ぅ|ぇ|ぉ|ね|ゃ|む|ろ|・|ー| | |
 {shift}|
 ]
- ・新月JIS配列 月配列で良いなと思った配列を取り入れ始める。これ以外にも「な」をCapslockに割り当てたものが存在する。配列迷走期である。
+  ・新月JIS配列 月配列で良いなと思った配列を取り入れ始める。これ以外にも「な」をCapslockに割り当てたものが存在する。配列迷走期である。
         </div>
         <div class="article-readmore"><a href="/etc/20200104174506shin_jis_log/">Read more...</a></div>
         <div class="article-floatclear"></div>
@@ -98,13 +131,13 @@
         </ul>
         <div class="article-content">
           <h3 id="拡張-新jis配列">・拡張-新JIS配列</h3>
-
-<p>新JIS配列をベースにして、快適に入力できるように調整された配列。右薬指同時打鍵を導入しているので、濁音を単打感覚で入力できる。<br />
+<p>新JIS配列をベースにして、快適に入力できるように調整された配列。右薬指同時打鍵を導入しているので、濁音を単打感覚で入力できる。<br>
 新JIS配列を使っているときに感じた不満点を解消するために生まれたものなので、初めての方は素の新JIS配列から習得することを強く推奨する。</p>
-
-<p><img src="/img/Shin_JIS/ex_shin_jis_1.05.jpg" alt="shin_JIS" /><br />
-<img src="/img/Shin_JIS/ex_shin_jis_1.05_matrix.jpg" alt="shin_JIS" /><br />
-* <a href="https://ja.wikipedia.org/wiki/%E6%96%B0JIS%E9%85%8D%E5%88%97">新JIS配列 - Wikipedia</a></p>
+<p><img src="/img/Shin_JIS/ex_shin_jis_1.05.jpg" alt="shin_JIS"><br>
+<img src="/img/Shin_JIS/ex_shin_jis_1.05_matrix.jpg" alt="shin_JIS"></p>
+<ul>
+<li><a href="https://ja.wikipedia.org/wiki/%E6%96%B0JIS%E9%85%8D%E5%88%97">新JIS配列 - Wikipedia</a></li>
+</ul>
         </div>
         <div class="article-readmore"><a href="/etc/20200103174506shin_jis_extension/">Read more...</a></div>
         <div class="article-floatclear"></div>
@@ -132,7 +165,7 @@
           <li class="article-meta-date"><time>December 23, 2019</time></li>
         </ul>
         <div class="article-content">
-          <p>この記事では個人情報とプライバシーを守るために有用なツールやサービスを紹介している。<br />
+          <p>この記事では個人情報とプライバシーを守るために有用なツールやサービスを紹介している。<br>
 基本的なPC技術と簡単な英語が読めるレベルを想定しているが、アプリケーション自体は日本語に対応している場合も多いので、そこまで気負う必要はない。</p>
         </div>
         <div class="article-readmore"><a href="/etc/20192312163707_privacy_app/">Read more...</a></div>
@@ -167,8 +200,8 @@
           </li>
         </ul>
         <div class="article-content">
-          <p><a href="https://lineageos.org/">LineageOS – LineageOS Android Distribution</a><br />
-Lineage OSはAndroidのカスタムROMだ。プライバシーを重視するユーザーはLineageOSなどのカスタムROMを導入して、Googleのサービスに別れを告げる。Googleアカウントを登録しなくてもAndroidが使えることや、自由にカスタマイズができる点、余分なアプリが入っていない点が特徴のカスタムROMだ。<br />
+          <p><a href="https://lineageos.org/">LineageOS – LineageOS Android Distribution</a><br>
+Lineage OSはAndroidのカスタムROMだ。プライバシーを重視するユーザーはLineageOSなどのカスタムROMを導入して、Googleのサービスに別れを告げる。Googleアカウントを登録しなくてもAndroidが使えることや、自由にカスタマイズができる点、余分なアプリが入っていない点が特徴のカスタムROMだ。<br>
 デメリットとしては、導入の敷居が高い、保証が無効になる、最悪の場合文鎮化して起動しなくなる、日本製の端末はほとんどカスタムROMに対応していないので海外端末を手に入れる必要がある……などの壁を乗り越える必要がある。</p>
         </div>
         <div class="article-readmore"><a href="/etc/005_decentralized_android/">Read more...</a></div>
@@ -204,15 +237,14 @@ Lineage OSはAndroidのカスタムROMだ。プライバシーを重視するユ
         </ul>
         <div class="article-content">
           <blockquote>
-<p>Certain things catch your eye, But pursue only those that capture your heart.<br />
-目を奪われるものがたくさんあるだろう。しかし、心奪われるものだけを追い求めなさい。<br />
+<p>Certain things catch your eye, But pursue only those that capture your heart.<br>
+目を奪われるものがたくさんあるだろう。しかし、心奪われるものだけを追い求めなさい。<br>
 『ネイティブアメリカンのことわざ』</p>
 </blockquote>
-
-<p><strong>・スルー力は有限リソースである。</strong><br />
-このエントリでは日々使っているフィルタリング方法を紹介する。<br />
-古のインターネットユーザーは「スルー力が大事」だと口を酸っぱくして私たちに教えた。それは真実ではあるのだが、スルー力には限りがあって使うたびに失われていく。それを念頭に置かなければ、スルー力が尽きてインターネットの暗黒面に取り込まれる。<br />
-不快な言説に反応しないための忍耐力は消耗品だ。スルーすることが大事だと言われても、目に入った時点で注意力を奪われてしまう。自制心を働かせ、注意深く振る舞い、行動を律さなければならないような状態に追い込まれてしまった時点ですでに劣勢に追い込まれている。<br />
+<p><strong>・スルー力は有限リソースである。</strong><br>
+このエントリでは日々使っているフィルタリング方法を紹介する。<br>
+古のインターネットユーザーは「スルー力が大事」だと口を酸っぱくして私たちに教えた。それは真実ではあるのだが、スルー力には限りがあって使うたびに失われていく。それを念頭に置かなければ、スルー力が尽きてインターネットの暗黒面に取り込まれる。<br>
+不快な言説に反応しないための忍耐力は消耗品だ。スルーすることが大事だと言われても、目に入った時点で注意力を奪われてしまう。自制心を働かせ、注意深く振る舞い、行動を律さなければならないような状態に追い込まれてしまった時点ですでに劣勢に追い込まれている。<br>
 ここではフィルタリングを用いて精神衛生を害するコンテンツを遠ざけ、スルー力の摩耗を抑える方法についてまとめておく。</p>
         </div>
         <div class="article-readmore"><a href="/etc/20191508050820_filtering/">Read more...</a></div>
@@ -238,36 +270,13 @@ Compared to the default marker palette, This palette has the following excellent
 ・Many colors.
 ・Colors are organized into groups according to the Copic Color Theory.
 ・Using RGB approximate value data.
- Copic Marker Copic Color Theory | Copic Too.com：コピック：ダウンロード   Download
+ Copic Marker Copic Color Theory | Copic Too.com：コピック：ダウンロード  Download
 copic322_color.gpl
  maborotopia/Krita_resources  Install
 Open the *.gpl file in Krita palettes docker.
 This file is probably compatible with Gimp and Mypaint.
         </div>
         <div class="article-readmore"><a href="/etc/008_krita_copic/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      <article class="article">
-        <a href="/etc/007_kritabrush/" class="article-titles">
-          <h2 class="article-title">Krita Brushkit</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>March 6, 2019</time></li>
-          <li class="article-meta-categories">
-            <a href="/categories/tech/">
-              <svg class="icon"><use xlink:href="/images/fa-solid.svg#folder"></use></svg>
-              tech
-            </a>&nbsp;
-          </li>
-        </ul>
-        <div class="article-content">
-          Krita brush for natural media painting. The purpose of this brush pack is to imitate analog tools such as pencils and watercolors. I add a faint texture to many brushes. Therefore it is compatible with paper texture.
-This brush was made based on Krita Brushkit v8.2 - David Revoy and The Muses Preset Pack | Krita
-Brush Icon - Krita/Brushes Preset Preview - KDE Community Wiki
-The Watercolor Brush inspire by Painter 6 I loved the watercolor brush of Painter 6.
-        </div>
-        <div class="article-readmore"><a href="/etc/007_kritabrush/">Read more...</a></div>
         <div class="article-floatclear"></div>
       </article>
     </section>

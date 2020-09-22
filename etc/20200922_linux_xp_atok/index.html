@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Linuxの仮想環境でAtokを使う。 - Maborotopia</title>
+  <meta property="og:title" content="Linuxの仮想環境でAtokを使う。 - Maborotopia" />
+  <meta name="twitter:title" content="Linuxの仮想環境でAtokを使う。 - Maborotopia" />
+  <meta name="description" content="Linux環境下で快適に日本語が入力できる環境を追求した結果、「VirtualboxにWindows XP環境を作り、Atokをインストールして、やまぶきやDvorakJで配列を変更する」方法に落ち着いた。
+親指シフトや新JIS配列といったマイナーな日本語配列を使い続けるのは年々難しくなりつつある。配列変更ソフトは長らく更新が止まっていて、Windows10の更新内容によっては突然使えなくなる可能性もゼロでは無い。富士通は親指シフトのサポート終了を発表したし、かえうちや自作キーボードを使うのはハードルが高い。
+LinuxはというとMozcの登場で多少ましになったとはいえ、Google日本語入力に比べると雲泥の差がある。Google日本語入力用の変換辞書は搭載されていないため、文脈に応じて賢く変換結果を変えるような芸当はいまのところできない。変換精度が変換制度になるような変換精度だ。
+Mozcの強化辞書版をビルドしたり、WineでAtokを動かそうと四苦八苦していたのだが、最終的に「VirtualboxにWindows XP環境を作り、Atokをインストールして、DvorakJややまぶきで配列を変更する」ことで快適な日本語入力環境を手に入れるに至った。
+ ・方法 ・参考までに方法を記しておく。
+・Windows XPは古いパソコンのリカバリーディスクを使った。無ければオークションやフリマサイトで探すのも手だ。日本語入力をするだけなので、Virtualboxに割り当てるメモリが256MB程度でも十分に動く。
+・Atokの過去バージョンをなんとかして手に入れる。Windows XP SP3はAtok2014までなら対応している。
+・場合によってはWindows 7でもいいかも知れない。
+・オフライン状態で使うので、セキュリティの問題は関係が無い。
+・ネットワークドライブとしてLinuxのフォルダを割り当てられるので、保存したテキストをDropboxやNextcloudでバックアップできる。
+・UnicodeとShift-JISの文字コード、改行の問題が発生するので、MeryやTerapadなどの高機能なテキストエディタを使おう。
+・標準のフォントが汚いので、GoogleのNotoフォントを入れる。
+・Seamlessモードで使うと、Linuxのデスクトップ環境と一体化するので使いやすくなる。
+・OSの更新にあまり左右されない。
+・理論上はVirtualboxのサポートが終了するまで同じ日本語入力環境を使い続けられる。
+・英語の入力環境だと簡単にDvorakとかColemak、Workmanといった配列が選べるのに、どうして日本語を入力するときにはこんなに苦しまなければならないのか。">
+  <meta property="og:description" content="Linux環境下で快適に日本語が入力できる環境を追求した結果、「VirtualboxにWindows XP環境を作り、Atokをインストールして、やまぶきやDvorakJで配列を変更する」方法に落ち着いた。
+親指シフトや新JIS配列といったマイナーな日本語配列を使い続けるのは年々難しくなりつつある。配列変更ソフトは長らく更新が止まっていて、Windows10の更新内容によっては突然使えなくなる可能性もゼロでは無い。富士通は親指シフトのサポート終了を発表したし、かえうちや自作キーボードを使うのはハードルが高い。
+LinuxはというとMozcの登場で多少ましになったとはいえ、Google日本語入力に比べると雲泥の差がある。Google日本語入力用の変換辞書は搭載されていないため、文脈に応じて賢く変換結果を変えるような芸当はいまのところできない。変換精度が変換制度になるような変換精度だ。
+Mozcの強化辞書版をビルドしたり、WineでAtokを動かそうと四苦八苦していたのだが、最終的に「VirtualboxにWindows XP環境を作り、Atokをインストールして、DvorakJややまぶきで配列を変更する」ことで快適な日本語入力環境を手に入れるに至った。
+ ・方法 ・参考までに方法を記しておく。
+・Windows XPは古いパソコンのリカバリーディスクを使った。無ければオークションやフリマサイトで探すのも手だ。日本語入力をするだけなので、Virtualboxに割り当てるメモリが256MB程度でも十分に動く。
+・Atokの過去バージョンをなんとかして手に入れる。Windows XP SP3はAtok2014までなら対応している。
+・場合によってはWindows 7でもいいかも知れない。
+・オフライン状態で使うので、セキュリティの問題は関係が無い。
+・ネットワークドライブとしてLinuxのフォルダを割り当てられるので、保存したテキストをDropboxやNextcloudでバックアップできる。
+・UnicodeとShift-JISの文字コード、改行の問題が発生するので、MeryやTerapadなどの高機能なテキストエディタを使おう。
+・標準のフォントが汚いので、GoogleのNotoフォントを入れる。
+・Seamlessモードで使うと、Linuxのデスクトップ環境と一体化するので使いやすくなる。
+・OSの更新にあまり左右されない。
+・理論上はVirtualboxのサポートが終了するまで同じ日本語入力環境を使い続けられる。
+・英語の入力環境だと簡単にDvorakとかColemak、Workmanといった配列が選べるのに、どうして日本語を入力するときにはこんなに苦しまなければならないのか。">
+  <meta name="twitter:description" content="Linux環境下で快適に日本語が入力できる環境を追求した結果、「VirtualboxにWindows XP環境を作り、Atokをインストールして、やまぶきやDvorakJで配列を変更する」方法に落ち着いた。
+親指シフトや新JIS配列といったマイナーな日本語配列を使い続けるのは年々難しくなりつつある。配列変更ソフトは長らく更新が止まっていて、Windows10の更新内容によっては突然使えなくなる可能 …">
+  <meta name="author" content="Maborotopia"/>
+  <meta property="og:site_name" content="Maborotopia" />
+  <meta property="og:url" content="/etc/20200922_linux_xp_atok/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.68.3" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="/">Maborotopia</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-about"><a href="/about_02/" title="About">About</a></li>
+      <li class="site-navi-item-Index"><a href="/lc_index/" title="Index">Index</a></li>
+      <li class="site-navi-item-TL"><a href="/rss_feed_index/" title="TL">TL</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archives">Archives</a></li>
+      <li class="site-navi-item-link"><a href="/link" title="Link">Link</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">Linuxの仮想環境でAtokを使う。</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>September 20, 2020</time></li>
+      </ul>
+      
+
+
+
+
+
+
+      <p><img src="/img/screen-2020-09-22-14-58-37.jpg" alt="Alt text"></p>
+<p>Linux環境下で快適に日本語が入力できる環境を追求した結果、「VirtualboxにWindows XP環境を作り、Atokをインストールして、やまぶきやDvorakJで配列を変更する」方法に落ち着いた。<br>
+親指シフトや新JIS配列といったマイナーな日本語配列を使い続けるのは年々難しくなりつつある。配列変更ソフトは長らく更新が止まっていて、Windows10の更新内容によっては突然使えなくなる可能性もゼロでは無い。富士通は親指シフトのサポート終了を発表したし、かえうちや自作キーボードを使うのはハードルが高い。<br>
+LinuxはというとMozcの登場で多少ましになったとはいえ、Google日本語入力に比べると雲泥の差がある。Google日本語入力用の変換辞書は搭載されていないため、文脈に応じて賢く変換結果を変えるような芸当はいまのところできない。変換精度が変換制度になるような変換精度だ。<br>
+Mozcの強化辞書版をビルドしたり、WineでAtokを動かそうと四苦八苦していたのだが、最終的に「VirtualboxにWindows XP環境を作り、Atokをインストールして、DvorakJややまぶきで配列を変更する」ことで快適な日本語入力環境を手に入れるに至った。</p>
+<hr>
+<h3 id="方法">・方法</h3>
+<p>・参考までに方法を記しておく。<br>
+・Windows XPは古いパソコンのリカバリーディスクを使った。無ければオークションやフリマサイトで探すのも手だ。日本語入力をするだけなので、Virtualboxに割り当てるメモリが256MB程度でも十分に動く。<br>
+・Atokの過去バージョンをなんとかして手に入れる。Windows XP SP3はAtok2014までなら対応している。<br>
+・場合によってはWindows 7でもいいかも知れない。<br>
+・オフライン状態で使うので、セキュリティの問題は関係が無い。<br>
+・ネットワークドライブとしてLinuxのフォルダを割り当てられるので、保存したテキストをDropboxやNextcloudでバックアップできる。<br>
+・UnicodeとShift-JISの文字コード、改行の問題が発生するので、MeryやTerapadなどの高機能なテキストエディタを使おう。<br>
+・標準のフォントが汚いので、GoogleのNotoフォントを入れる。<br>
+・Seamlessモードで使うと、Linuxのデスクトップ環境と一体化するので使いやすくなる。<br>
+・OSの更新にあまり左右されない。<br>
+・理論上はVirtualboxのサポートが終了するまで同じ日本語入力環境を使い続けられる。<br>
+・英語の入力環境だと簡単にDvorakとかColemak、Workmanといった配列が選べるのに、どうして日本語を入力するときにはこんなに苦しまなければならないのか。</p>
+
+    </article>
+
+    
+
+    <ul class="pager article-pager">
+      <li class="pager-newer pager-noitem">&lt; Newer</li>
+      <li class="pager-older">
+        <a href="/etc/20200104174506shin_jis_log/" data-toggle="tooltip" data-placement="top" title="拡張新JIS配列の系譜">Older &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">&copy; Copyright 2020 Maborotopia</div>
+  <ul class="site-footer-items">
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a>
+  </div>
+</div>
+<script src="/js/script.js"></script>
+<script src="/js/custom.js"></script>
+
+
+</body>
+</html>

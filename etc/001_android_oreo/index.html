@@ -17,7 +17,7 @@
   <meta property="og:url" content="/etc/001_android_oreo/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.57.2" />
+  <meta name="generator" content="Hugo 0.68.3" />
   <link rel="stylesheet" href="/css/style.css" media="all" />
   <link rel="stylesheet" href="/css/syntax.css" media="all" />
   <link rel="stylesheet" href="/css/custom.css" media="all" />
@@ -62,36 +62,30 @@
 
 
 
-      <p>Androidも初期設定のままでは、微妙な場所で電力を無駄に消費している場合がある。この項目ではこれまでに自分が試したバッテリー節約方法をまとめてある。英語UIを使っているが、日本語でもなんとなくわかるはずだ。わからなかったら検索しよう。<br />
+      <p>Androidも初期設定のままでは、微妙な場所で電力を無駄に消費している場合がある。この項目ではこれまでに自分が試したバッテリー節約方法をまとめてある。英語UIを使っているが、日本語でもなんとなくわかるはずだ。わからなかったら検索しよう。<br>
 おれはAndroidのスマホを買う度に、動作が安定するまでにwifi経由でgoogleに呪詛の念を向けている。バージョンが変わるたびに設定方法が変わって面倒になるが、基本的な考え方は一緒だ。</p>
-
 <p><strong>・モバイルデータの常時接続設定をオフにする。</strong>
 Oreoではモバイルデータの接続設定が常時オンになっている。デュアルsimのモバイル接続設定を細かく設定したいので、デフォルト設定を変更する。</p>
-
-<p>settings→System→About phone　に移動する。<br />
-Build numberの項目を何度もタッチすると、developer options が表示される。<br />
-Systemに戻ると、Developer options　があるはずだ。<br />
+<p>settings→System→About phone　に移動する。<br>
+Build numberの項目を何度もタッチすると、developer options が表示される。<br>
+Systemに戻ると、Developer options　があるはずだ。<br>
 その中にある「Avril down to Mobile data always active」をオフにする。</p>
-
 <p><strong>・電話回線を3G onlyにする。</strong>
-androidはデフォルトのままだと、日本では使われていない2G回線の電波を探して無駄にバッテリーを消耗してしまうという欠点がある。それを解決するために、使う電波は3Gだけだとandroidに教え込まなければならない。<br />
+androidはデフォルトのままだと、日本では使われていない2G回線の電波を探して無駄にバッテリーを消耗してしまうという欠点がある。それを解決するために、使う電波は3Gだけだとandroidに教え込まなければならない。<br>
 これまでのandroidは設定メニューの中に3Gにだけ接続できるようにする設定があったが、Oreoは特殊なコードを入力しなければ変えられないようになっている。</p>
-
-<p>電話アプリを起動し、「<em>#</em>#4636#*#*」と入力する。<br />
-画面が変わるのでphone informationの項目に移動する。<br />
-その中にGMSとかLTEみたいな項目が並んでいる箇所があるので、WCDMA only を選ぶ。<br />
+<p>電話アプリを起動し、「<em>#</em>#4636#<em>#</em>」と入力する。<br>
+画面が変わるのでphone informationの項目に移動する。<br>
+その中にGMSとかLTEみたいな項目が並んでいる箇所があるので、WCDMA only を選ぶ。<br>
 自分の使っている回線は3Gにしか対応していないので、4Gの人は最適な設定を探してみてくれ。</p>
-
 <p><strong>・スリープ中のwifi接続をオフにする。</strong>
-wifi設定画名からAdvanced Wi-Fiを見つけ出す。<br />
-‘Keep Wi-Fi on during sleep’ の欄を一番下の ‘Never’ にする。<br />
+wifi設定画名からAdvanced Wi-Fiを見つけ出す。<br>
+‘Keep Wi-Fi on during sleep’ の欄を一番下の ‘Never’ にする。<br>
 スリープ中にはwifiが無効化されているので、モバイルデータの消費量が多くなるかもしれない。</p>
-
-<p>googleは余計なことをしてバッテリーに負荷をかけることがよくあるので、下記の設定を見直すのもよい。<br />
-・googleアカウントの同期を切る。<br />
-・使わないときにはGPSを切る。<br />
-「近くのwifiの電波を調べて、より精度の高い位置情報を取得しますぜ」的な項目をオフにする。<br />
-・バッテリー節約アプリを入れてみる。<br />
+<p>googleは余計なことをしてバッテリーに負荷をかけることがよくあるので、下記の設定を見直すのもよい。<br>
+・googleアカウントの同期を切る。<br>
+・使わないときにはGPSを切る。<br>
+「近くのwifiの電波を調べて、より精度の高い位置情報を取得しますぜ」的な項目をオフにする。<br>
+・バッテリー節約アプリを入れてみる。<br>
 　自分はibatteryを入れている。</p>
     </article>
 
@@ -102,7 +96,7 @@ wifi設定画名からAdvanced Wi-Fiを見つけ出す。<br />
           <a href="/etc/006_xmpp/" data-toggle="tooltip" data-placement="top" title="XMPPかんたん！……でもない使い方ガイド。">&lt; Newer</a>
       </li>
       <li class="pager-older">
-        <a href="/etc/maborotopia_bookmark/" data-toggle="tooltip" data-placement="top" title="Maborotopia_bookmark">Older &gt;</a>
+        <a href="/etc/20200922_ai_coloring/" data-toggle="tooltip" data-placement="top" title="AIを使ってイラストに色を塗る謎の技術">Older &gt;</a>
       </li>
     </ul>
   </div>

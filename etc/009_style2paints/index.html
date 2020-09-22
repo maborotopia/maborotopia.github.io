@@ -14,7 +14,7 @@
   <meta property="og:url" content="/etc/009_style2paints/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.57.2" />
+  <meta name="generator" content="Hugo 0.68.3" />
   <link rel="stylesheet" href="/css/style.css" media="all" />
   <link rel="stylesheet" href="/css/syntax.css" media="all" />
   <link rel="stylesheet" href="/css/custom.css" media="all" />
@@ -60,90 +60,68 @@
 
 
       <p>Style2paintsは人工知能でイラストの彩色を行うツールだ。</p>
-
-<p><strong>・環境について。</strong><br />
-環境　Ubuntu 19.04<br />
+<p><strong>・環境について。</strong><br>
+環境　Ubuntu 19.04<br>
 CPUはAMD Ryzen3 2200Gです。</p>
-
-<p><strong>・参考にしたWebサイト</strong><br />
-<a href="https://qiita.com/ryaguchi/items/109a099f334ee2112a56">ポンコツPCでstyle2paintsによるAI自動着色を試す - Qiita</a><br />
-<a href="https://cg202.exblog.jp/28979361/">Style2PaintsをWindowsローカル環境で動かす : 三毛猫様の部屋</a><br />
-<a href="https://www.amazon.co.jp/dp/B014ISGPZI/ref=cm_sw_r_tw_dp_U_x_IniJDb63E2MWE">ゆるゆり さん☆ハイ!オープニングテーマ ちょちょちょ!ゆるゆり☆かぷりっちょ!!!(初回盤)(DVD付) ポニーキャニオン</a><br />
+<p><strong>・参考にしたWebサイト</strong><br>
+<a href="https://qiita.com/ryaguchi/items/109a099f334ee2112a56">ポンコツPCでstyle2paintsによるAI自動着色を試す - Qiita</a><br>
+<a href="https://cg202.exblog.jp/28979361/">Style2PaintsをWindowsローカル環境で動かす : 三毛猫様の部屋</a><br>
+<a href="https://www.amazon.co.jp/dp/B014ISGPZI/ref=cm_sw_r_tw_dp_U_x_IniJDb63E2MWE">ゆるゆり さん☆ハイ!オープニングテーマ ちょちょちょ!ゆるゆり☆かぷりっちょ!!!(初回盤)(DVD付) ポニーキャニオン</a><br>
 ゆるゆり さん☆ハイ!のOPはエラーの原因がわからずに折れた心を癒やしてくれた。</p>
-
-<hr />
-
-<p><strong>・Anaconda3をインストールし、Python3.6の仮想環境を作る。</strong><br />
-<a href="https://www.anaconda.com/distribution/">Anaconda Python/R Distribution - Free Download</a><br />
+<hr>
+<p><strong>・Anaconda3をインストールし、Python3.6の仮想環境を作る。</strong><br>
+<a href="https://www.anaconda.com/distribution/">Anaconda Python/R Distribution - Free Download</a><br>
 <a href="https://docs.anaconda.com/anaconda/">Anaconda Distribution — Anaconda 2.0 documentation</a></p>
-
-<p><strong>・公式ドキュメントを読んでインストールする。</strong><br />
-<a href="https://docs.anaconda.com/anaconda/install/linux/">Installing on Linux — Anaconda 2.0 documentation</a><br />
-<a href="https://docs.anaconda.com/anaconda/user-guide/getting-started/">Getting started with Anaconda — Anaconda 2.0 documentation</a><br />
-・公式では無いが役にたったもの（すこし古い）<br />
+<p><strong>・公式ドキュメントを読んでインストールする。</strong><br>
+<a href="https://docs.anaconda.com/anaconda/install/linux/">Installing on Linux — Anaconda 2.0 documentation</a><br>
+<a href="https://docs.anaconda.com/anaconda/user-guide/getting-started/">Getting started with Anaconda — Anaconda 2.0 documentation</a><br>
+・公式では無いが役にたったもの（すこし古い）<br>
 <a href="http://uoa-eresearch.github.io/eresearch-cookbook/eresearch-cookbook/recipe/2014/11/20/conda/">Create virtual environments for python with conda</a></p>
-
-<p>個人的な経験則だが、何処の馬の骨とも知れないブログ記事に書かれていることを真に受けて時間を浪費するよりも、公式ドキュメントを読んだ方が早い。<br />
+<p>個人的な経験則だが、何処の馬の骨とも知れないブログ記事に書かれていることを真に受けて時間を浪費するよりも、公式ドキュメントを読んだ方が早い。<br>
 ……ということを念頭に置きつつ、Python3.6の仮想環境を作る。</p>
-
-<hr />
-
-<p><strong>・anacondaの仮想環境を作る。</strong><br />
-※anacondaのインストールが終わった後。<br />
-conda update conda<br />
-conda create -n yourenvname python=3.6 anaconda<br />
+<hr>
+<p><strong>・anacondaの仮想環境を作る。</strong><br>
+※anacondaのインストールが終わった後。<br>
+conda update conda<br>
+conda create -n yourenvname python=3.6 anaconda<br>
 conda activate yourenvname</p>
-
-<p><strong>・必要なPythonパッケージを入れる。</strong><br />
+<p><strong>・必要なPythonパッケージを入れる。</strong><br>
 実行時にエラーが出たので、インストールするkerasのバージョンを2.1.5にした。</p>
-
-<p>pip install --upgrade pip<br />
-pip install tensorflow==1.5.0<br />
-pip install keras==2.1.5<br />
-pip install bottle<br />
-pip install gevent<br />
-pip install h5py<br />
-pip install opencv-python<br />
-pip install scikit-image<br />
+<p>pip install --upgrade pip<br>
+pip install tensorflow==1.5.0<br>
+pip install keras==2.1.5<br>
+pip install bottle<br>
+pip install gevent<br>
+pip install h5py<br>
+pip install opencv-python<br>
+pip install scikit-image<br>
 pip install paste</p>
-
-<hr />
-
-<p><strong>・gitでソースコードを落とす。</strong><br />
-git clone <a href="https://github.com/lllyasviel/style2paints.git">https://github.com/lllyasviel/style2paints.git</a><br />
-<a href="https://drive.google.com/drive/folders/1fWi4wmNj-xr-nCzuWMsN2rcm0249_Aem">style2paints - Google ドライブ</a><br />
+<hr>
+<p><strong>・gitでソースコードを落とす。</strong><br>
+git clone <a href="https://github.com/lllyasviel/style2paints.git">https://github.com/lllyasviel/style2paints.git</a><br>
+<a href="https://drive.google.com/drive/folders/1fWi4wmNj-xr-nCzuWMsN2rcm0249_Aem">style2paints - Google ドライブ</a><br>
 Googleドライブからモデルをダウンロードして、/style2paints\V3\serverにコピーする。</p>
-
-<hr />
-
-<p><strong>・心が折れる</strong><br />
-ここで完全に詰まる。Windows環境ではできたことが、Linuxの環境では何をどうやってもうまくいかない。謎の力によって起動を阻まれている。まず何がわからないのかがわからない。ポート開放に問題があることはわかっていたのだが、ファイアウォールを開けたり、ファイル権限を変更しても動かない。<br />
+<hr>
+<p><strong>・心が折れる</strong><br>
+ここで完全に詰まる。Windows環境ではできたことが、Linuxの環境では何をどうやってもうまくいかない。謎の力によって起動を阻まれている。まず何がわからないのかがわからない。ポート開放に問題があることはわかっていたのだが、ファイアウォールを開けたり、ファイル権限を変更しても動かない。<br>
 ゆるゆり さん☆ハイ!OPの「悩み事は見ないふり　押し入れにしまいましょう」という歌詞に従ってすべてから逃避する。</p>
-
-<hr />
-
-<p><strong>・ソースコードを修正してポートを解放する。</strong><br />
-このまま実行してもPermission errorが出て起動しないのでポートを変更する。<br />
+<hr>
+<p><strong>・ソースコードを修正してポートを解放する。</strong><br>
+このまま実行してもPermission errorが出て起動しないのでポートを変更する。<br>
 /style2paints\V3\server/server.pyの末尾にあるコードを下記のように修正する。8080番にしたのはなんとなくだ。</p>
-
 <blockquote>
-<p>run(host=&ldquo;0.0.0.0&rdquo;, port=<strong>80</strong>, server=&lsquo;paste&rsquo;)<br />
-run(host=&ldquo;0.0.0.0&rdquo;, port=<strong>8080</strong>, server=&lsquo;paste&rsquo;)</p>
+<p>run(host=&quot;0.0.0.0&rdquo;, port=<strong>80</strong>, server='paste&rsquo;)<br>
+run(host=&quot;0.0.0.0&rdquo;, port=<strong>8080</strong>, server='paste&rsquo;)</p>
 </blockquote>
-
-<p><strong>・起動する。</strong><br />
-cd /home/user/style2paints/V3/server<br />
+<p><strong>・起動する。</strong><br>
+cd /home/user/style2paints/V3/server<br>
 python server.py</p>
-
 <p>動いた！</p>
-
-<p><img src="/img/style2paint_yuruyuri.jpg" alt="yuruyuri" title="個人的なゆるゆりベストカップリングである「ちな×京」の図。京子がちなつを好きなのは、ミラクるんに似ているからだと言われているが、実際には幼少期に出逢ったちなつに似ているという理由でミラクるんが好きになったと考えている。泣き虫だった京子の前に現れたちなつは、彼女にとっては「こういう風になりたい憧れの自分」で、それは恋愛感情ではなくて人生の指針に近い。あの日、ちなつちゃんが私と出逢ってくれたから、今の私がある。彼女のおかげで変わることができた。自分の気持ちが拒絶されていることや、ちなつの視線の先にあるのが結衣であることもわかっている。ちなつちゃんには幸せになってもらいたい。でも、視界が滲んでいくのはなんでだろう……？" /></p>
-
-<hr />
-
-<p><strong>・詰まったところ。</strong><br />
-1,Pythonの仮想環境を作ること。<br />
-2,古いバージョンのPythonパッケージをインストールする。<br />
+<p><img src="/img/style2paint_yuruyuri.jpg" alt="yuruyuri" title="個人的なゆるゆりベストカップリングである「ちな×京」の図。京子がちなつを好きなのは、ミラクるんに似ているからだと言われているが、実際には幼少期に出逢ったちなつに似ているという理由でミラクるんが好きになったと考えている。泣き虫だった京子の前に現れたちなつは、彼女にとっては「こういう風になりたい憧れの自分」で、それは恋愛感情ではなくて人生の指針に近い。あの日、ちなつちゃんが私と出逢ってくれたから、今の私がある。彼女のおかげで変わることができた。自分の気持ちが拒絶されていることや、ちなつの視線の先にあるのが結衣であることもわかっている。ちなつちゃんには幸せになってもらいたい。でも、視界が滲んでいくのはなんでだろう……？"></p>
+<hr>
+<p><strong>・詰まったところ。</strong><br>
+1,Pythonの仮想環境を作ること。<br>
+2,古いバージョンのPythonパッケージをインストールする。<br>
 3,ポート解放に手間取っていたのは前述のとおりだが、ソースコードを修正するだけで良かった。こういう悩みに悩んだあげくにちょっとした修正で動くようになると精神的に疲れる。</p>
     </article>
 

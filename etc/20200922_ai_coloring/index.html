@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>AIを使ってイラストに色を塗る謎の技術 - Maborotopia</title>
+  <meta property="og:title" content="AIを使ってイラストに色を塗る謎の技術 - Maborotopia" />
+  <meta name="twitter:title" content="AIを使ってイラストに色を塗る謎の技術 - Maborotopia" />
+  <meta name="description" content="AI着色ソフトを使って、モノクロで描いたイラストを簡易着色する謎技術の開発を行っている。">
+  <meta property="og:description" content="AI着色ソフトを使って、モノクロで描いたイラストを簡易着色する謎技術の開発を行っている。">
+  <meta name="twitter:description" content="AI着色ソフトを使って、モノクロで描いたイラストを簡易着色する謎技術の開発を行っている。">
+  <meta name="author" content="Maborotopia"/>
+  <meta property="og:site_name" content="Maborotopia" />
+  <meta property="og:url" content="/etc/20200922_ai_coloring/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.68.3" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="/">Maborotopia</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-about"><a href="/about_02/" title="About">About</a></li>
+      <li class="site-navi-item-Index"><a href="/lc_index/" title="Index">Index</a></li>
+      <li class="site-navi-item-TL"><a href="/rss_feed_index/" title="TL">TL</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archives">Archives</a></li>
+      <li class="site-navi-item-link"><a href="/link" title="Link">Link</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">AIを使ってイラストに色を塗る謎の技術</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>September 22, 2000</time></li>
+      </ul>
+      
+
+
+
+
+
+
+      <p>AI着色ソフトを使って、モノクロで描いたイラストを簡易着色する謎技術の開発を行っている。</p>
+<p><img src="/img/AI_coloring/ai06.jpg" alt="ai06.jpg"></p>
+<h3 id="使用ソフト">・使用ソフト</h3>
+<p>Style2Paintsの導入については別記事を参考にするか、WindowsユーザーでNvidaのグラフィックボードを持っている場合はアプリケーションが利用できる。使っているツールはフリーのペイントソフトKritaだが、別のソフトでも問題なく応用できるだろう。</p>
+<ul>
+<li><a href="https://github.com/lllyasviel/style2paints">GitHub - lllyasviel/style2paints: sketch + style = paints (TOG2018/SIGGRAPH2018ASIA)</a></li>
+</ul>
+<h3 id="手順">・手順</h3>
+<p><img src="/img/AI_coloring/ai01.jpg" alt="ai01.jpg"></p>
+<p>・まずグレースケールの画像を準備する。<br>
+・Style2Paintsを起動し、彩色を行う。<br>
+Re-coloringを使って彩色する。Style2Paintsにはリファレンス機能があり、参考画像の配色を使って大まかな色調を操作できる。<br>
+ここでは「全体の色調となる画像」と「対比となる色調の画像」の二種類を生成した。</p>
+<p><img src="/img/AI_coloring/screenshot-dbfbf2a4.jpg" alt="screenshot-dbfbf2a4.jpg"><br>
+<img src="/img/AI_coloring/ai02.jpg" alt="ai02.jpg"><br>
+<img src="/img/AI_coloring/ai03.jpg" alt="ai03.jpg"></p>
+<h3 id="kritaに戻って画像を合成する">・Kritaに戻って、画像を合成する。</h3>
+<p>画像が縮小されているので、「Layer-Transfrom-Scale Layer to new Size」でレイヤーの拡大縮小を行う。100%にすると元のサイズになる。<br>
+・AIで生成した画像をソフトライトで合成する。</p>
+<p><img src="/img/AI_coloring/ai04.jpg" alt="ai04.jpg"></p>
+<h3 id="諸々の調整">・諸々の調整</h3>
+<p>・Colorレイヤーを作って色調を整える。<br>
+・乗算レイヤーで影を書き足したり、Overlayレイヤーでハイライトを追加する。<br>
+この辺の塗り方は <a href="https://ctrlpaint.myshopify.com/products/grayscale-to-color-1?_pos=1&amp;_sid=293dc5f73&amp;_ss=r">Grayscale to Color – ctrlpaint</a>あたりを参考にしたほうがいい。<br>
+・灰色で塗りつぶしたレイヤーで彩度の調整をする。顔付近の彩度は高く、それ以外は低くしてコントラストを付ける。<br>
+・後は細部やハイライトを書き足したり、色彩の修正を行ったり、テクスチャを重ねたりしている。</p>
+<p><img src="/img/AI_coloring/ai06.jpg" alt="ai06.jpg"></p>
+<p>だいたいこんな感じで色を塗っている。AIでの彩色は細かいコントロールが効かないのがデメリットだが、短時間で彩色する場合には面白い方法だと思う。<br>
+この技法は実験的なもので、勝手に改良しても構わないし、より効率的な方法があれば教えて欲しい。</p>
+    </article>
+
+    
+
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="/etc/001_android_oreo/" data-toggle="tooltip" data-placement="top" title="Androidのバッテリー消費を抑えるいくつかの方法。（Oreo版）">&lt; Newer</a>
+      </li>
+      <li class="pager-older">
+        <a href="/etc/maborotopia_bookmark/" data-toggle="tooltip" data-placement="top" title="Maborotopia_bookmark">Older &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">&copy; Copyright 2020 Maborotopia</div>
+  <ul class="site-footer-items">
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a>
+  </div>
+</div>
+<script src="/js/script.js"></script>
+<script src="/js/custom.js"></script>
+
+
+</body>
+</html>

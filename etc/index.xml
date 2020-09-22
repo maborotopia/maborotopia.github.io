@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Etcs on Maborotopia</title>
@@ -7,10 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2020 Maborotopia</copyright>
-    <lastBuildDate>Wed, 22 Apr 2020 17:45:06 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2020 14:45:06 +0900</lastBuildDate>
     
 	<atom:link href="https://maborotopia.github.io/etc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linuxの仮想環境でAtokを使う。</title>
+      <link>https://maborotopia.github.io/etc/20200922_linux_xp_atok/</link>
+      <pubDate>Sun, 20 Sep 2020 14:45:06 +0900</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/20200922_linux_xp_atok/</guid>
+      <description>Linux環境下で快適に日本語が入力できる環境を追求した結果、「VirtualboxにWindows XP環境を作り、Atokをインストールして、やまぶきやDvorakJで配列を変更する」方法に落ち着いた。
+親指シフトや新JIS配列といったマイナーな日本語配列を使い続けるのは年々難しくなりつつある。配列変更ソフトは長らく更新が止まっていて、Windows10の更新内容によっては突然使えなくなる可能性もゼロでは無い。富士通は親指シフトのサポート終了を発表したし、かえうちや自作キーボードを使うのはハードルが高い。
+LinuxはというとMozcの登場で多少ましになったとはいえ、Google日本語入力に比べると雲泥の差がある。Google日本語入力用の変換辞書は搭載されていないため、文脈に応じて賢く変換結果を変えるような芸当はいまのところできない。変換精度が変換制度になるような変換精度だ。
+Mozcの強化辞書版をビルドしたり、WineでAtokを動かそうと四苦八苦していたのだが、最終的に「VirtualboxにWindows XP環境を作り、Atokをインストールして、DvorakJややまぶきで配列を変更する」ことで快適な日本語入力環境を手に入れるに至った。
+ ・方法 ・参考までに方法を記しておく。
+・Windows XPは古いパソコンのリカバリーディスクを使った。無ければオークションやフリマサイトで探すのも手だ。日本語入力をするだけなので、Virtualboxに割り当てるメモリが256MB程度でも十分に動く。
+・Atokの過去バージョンをなんとかして手に入れる。Windows XP SP3はAtok2014までなら対応している。
+・場合によってはWindows 7でもいいかも知れない。
+・オフライン状態で使うので、セキュリティの問題は関係が無い。
+・ネットワークドライブとしてLinuxのフォルダを割り当てられるので、保存したテキストをDropboxやNextcloudでバックアップできる。
+・UnicodeとShift-JISの文字コード、改行の問題が発生するので、MeryやTerapadなどの高機能なテキストエディタを使おう。
+・標準のフォントが汚いので、GoogleのNotoフォントを入れる。
+・Seamlessモードで使うと、Linuxのデスクトップ環境と一体化するので使いやすくなる。
+・OSの更新にあまり左右されない。
+・理論上はVirtualboxのサポートが終了するまで同じ日本語入力環境を使い続けられる。
+・英語の入力環境だと簡単にDvorakとかColemak、Workmanといった配列が選べるのに、どうして日本語を入力するときにはこんなに苦しまなければならないのか。</description>
+    </item>
     
     <item>
       <title>拡張新JIS配列の系譜</title>
@@ -35,7 +59,7 @@
 ぃ|へ|ら|ゅ|よ|ま|お|も|わ|ゆ|」| |
 ぅ|ぇ|ぉ|ね|ゃ|む|ろ|・|ー| | |
 {shift}|
- ・新JIS配列小指負担軽減版 配列沼に足を踏み入れることになった記念碑的配列。「小指の負担になる文字を別の場所に移動すれば良いのではないか？」と漠然と思っただけなのに、気がついたときには深みにはまって帰ってこれなくなった。
+  ・新JIS配列小指負担軽減版 配列沼に足を踏み入れることになった記念碑的配列。「小指の負担になる文字を別の場所に移動すれば良いのではないか？」と漠然と思っただけなのに、気がついたときには深みにはまって帰ってこれなくなった。
 ここから長い旅が始まったのだ……。
  /* 文字キーを単独で入力 */
 [
@@ -52,7 +76,7 @@
 ぅ|ぇ|ぉ|ね|ゃ|む|ろ|・|ー| | |
 {shift}|
 ]
- ・新月JIS配列 月配列で良いなと思った配列を取り入れ始める。これ以外にも「な」をCapslockに割り当てたものが存在する。配列迷走期である。</description>
+  ・新月JIS配列 月配列で良いなと思った配列を取り入れ始める。これ以外にも「な」をCapslockに割り当てたものが存在する。配列迷走期である。</description>
     </item>
     
     <item>
@@ -62,13 +86,13 @@
       
       <guid>https://maborotopia.github.io/etc/20200103174506shin_jis_extension/</guid>
       <description>&lt;h3 id=&#34;拡張-新jis配列&#34;&gt;・拡張-新JIS配列&lt;/h3&gt;
-
-&lt;p&gt;新JIS配列をベースにして、快適に入力できるように調整された配列。右薬指同時打鍵を導入しているので、濁音を単打感覚で入力できる。&lt;br /&gt;
+&lt;p&gt;新JIS配列をベースにして、快適に入力できるように調整された配列。右薬指同時打鍵を導入しているので、濁音を単打感覚で入力できる。&lt;br&gt;
 新JIS配列を使っているときに感じた不満点を解消するために生まれたものなので、初めての方は素の新JIS配列から習得することを強く推奨する。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://maborotopia.github.io/img/Shin_JIS/ex_shin_jis_1.05.jpg&#34; alt=&#34;shin_JIS&#34; /&gt;&lt;br /&gt;
-&lt;img src=&#34;https://maborotopia.github.io/img/Shin_JIS/ex_shin_jis_1.05_matrix.jpg&#34; alt=&#34;shin_JIS&#34; /&gt;&lt;br /&gt;
-* &lt;a href=&#34;https://ja.wikipedia.org/wiki/%E6%96%B0JIS%E9%85%8D%E5%88%97&#34;&gt;新JIS配列 - Wikipedia&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;https://maborotopia.github.io/img/Shin_JIS/ex_shin_jis_1.05.jpg&#34; alt=&#34;shin_JIS&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://maborotopia.github.io/img/Shin_JIS/ex_shin_jis_1.05_matrix.jpg&#34; alt=&#34;shin_JIS&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E6%96%B0JIS%E9%85%8D%E5%88%97&#34;&gt;新JIS配列 - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -86,7 +110,7 @@
       <pubDate>Mon, 23 Dec 2019 16:37:08 +0900</pubDate>
       
       <guid>https://maborotopia.github.io/etc/20192312163707_privacy_app/</guid>
-      <description>&lt;p&gt;この記事では個人情報とプライバシーを守るために有用なツールやサービスを紹介している。&lt;br /&gt;
+      <description>&lt;p&gt;この記事では個人情報とプライバシーを守るために有用なツールやサービスを紹介している。&lt;br&gt;
 基本的なPC技術と簡単な英語が読めるレベルを想定しているが、アプリケーション自体は日本語に対応している場合も多いので、そこまで気負う必要はない。&lt;/p&gt;</description>
     </item>
     
@@ -105,8 +129,8 @@
       <pubDate>Mon, 23 Dec 2019 00:17:25 +0000</pubDate>
       
       <guid>https://maborotopia.github.io/etc/005_decentralized_android/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://lineageos.org/&#34;&gt;LineageOS – LineageOS Android Distribution&lt;/a&gt;&lt;br /&gt;
-Lineage OSはAndroidのカスタムROMだ。プライバシーを重視するユーザーはLineageOSなどのカスタムROMを導入して、Googleのサービスに別れを告げる。Googleアカウントを登録しなくてもAndroidが使えることや、自由にカスタマイズができる点、余分なアプリが入っていない点が特徴のカスタムROMだ。&lt;br /&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://lineageos.org/&#34;&gt;LineageOS – LineageOS Android Distribution&lt;/a&gt;&lt;br&gt;
+Lineage OSはAndroidのカスタムROMだ。プライバシーを重視するユーザーはLineageOSなどのカスタムROMを導入して、Googleのサービスに別れを告げる。Googleアカウントを登録しなくてもAndroidが使えることや、自由にカスタマイズができる点、余分なアプリが入っていない点が特徴のカスタムROMだ。&lt;br&gt;
 デメリットとしては、導入の敷居が高い、保証が無効になる、最悪の場合文鎮化して起動しなくなる、日本製の端末はほとんどカスタムROMに対応していないので海外端末を手に入れる必要がある……などの壁を乗り越える必要がある。&lt;/p&gt;</description>
     </item>
     
@@ -126,15 +150,14 @@ Lineage OSはAndroidのカスタムROMだ。プライバシーを重視するユ
       
       <guid>https://maborotopia.github.io/etc/20191508050820_filtering/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Certain things catch your eye, But pursue only those that capture your heart.&lt;br /&gt;
-目を奪われるものがたくさんあるだろう。しかし、心奪われるものだけを追い求めなさい。&lt;br /&gt;
+&lt;p&gt;Certain things catch your eye, But pursue only those that capture your heart.&lt;br&gt;
+目を奪われるものがたくさんあるだろう。しかし、心奪われるものだけを追い求めなさい。&lt;br&gt;
 『ネイティブアメリカンのことわざ』&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;・スルー力は有限リソースである。&lt;/strong&gt;&lt;br /&gt;
-このエントリでは日々使っているフィルタリング方法を紹介する。&lt;br /&gt;
-古のインターネットユーザーは「スルー力が大事」だと口を酸っぱくして私たちに教えた。それは真実ではあるのだが、スルー力には限りがあって使うたびに失われていく。それを念頭に置かなければ、スルー力が尽きてインターネットの暗黒面に取り込まれる。&lt;br /&gt;
-不快な言説に反応しないための忍耐力は消耗品だ。スルーすることが大事だと言われても、目に入った時点で注意力を奪われてしまう。自制心を働かせ、注意深く振る舞い、行動を律さなければならないような状態に追い込まれてしまった時点ですでに劣勢に追い込まれている。&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;・スルー力は有限リソースである。&lt;/strong&gt;&lt;br&gt;
+このエントリでは日々使っているフィルタリング方法を紹介する。&lt;br&gt;
+古のインターネットユーザーは「スルー力が大事」だと口を酸っぱくして私たちに教えた。それは真実ではあるのだが、スルー力には限りがあって使うたびに失われていく。それを念頭に置かなければ、スルー力が尽きてインターネットの暗黒面に取り込まれる。&lt;br&gt;
+不快な言説に反応しないための忍耐力は消耗品だ。スルーすることが大事だと言われても、目に入った時点で注意力を奪われてしまう。自制心を働かせ、注意深く振る舞い、行動を律さなければならないような状態に追い込まれてしまった時点ですでに劣勢に追い込まれている。&lt;br&gt;
 ここではフィルタリングを用いて精神衛生を害するコンテンツを遠ざけ、スルー力の摩耗を抑える方法についてまとめておく。&lt;/p&gt;</description>
     </item>
     
@@ -149,7 +172,7 @@ Compared to the default marker palette, This palette has the following excellent
 ・Many colors.
 ・Colors are organized into groups according to the Copic Color Theory.
 ・Using RGB approximate value data.
- Copic Marker Copic Color Theory | Copic Too.com：コピック：ダウンロード   Download
+ Copic Marker Copic Color Theory | Copic Too.com：コピック：ダウンロード  Download
 copic322_color.gpl
  maborotopia/Krita_resources  Install
 Open the *.gpl file in Krita palettes docker.
@@ -165,7 +188,7 @@ This file is probably compatible with Gimp and Mypaint.</description>
       <description>Krita brush for natural media painting. The purpose of this brush pack is to imitate analog tools such as pencils and watercolors. I add a faint texture to many brushes. Therefore it is compatible with paper texture.
 This brush was made based on Krita Brushkit v8.2 - David Revoy and The Muses Preset Pack | Krita
 Brush Icon - Krita/Brushes Preset Preview - KDE Community Wiki
-The Watercolor Brush inspire by Painter 6 I loved the watercolor brush of Painter 6.</description>
+ The Watercolor Brush inspire by Painter 6 I loved the watercolor brush of Painter 6.</description>
     </item>
     
     <item>
@@ -174,14 +197,9 @@ The Watercolor Brush inspire by Painter 6 I loved the watercolor brush of Painte
       <pubDate>Thu, 20 Sep 2018 23:51:40 +0900</pubDate>
       
       <guid>https://maborotopia.github.io/etc/privacy/</guid>
-      <description>&amp;ldquo;If you are not paying for the product, you are the product.&amp;rdquo;
-・オープンソースソフトウェア実践編 ・脱Googleを目指すために読んでおくべきページ
- De-google-ify Internet What FOSS apps are you using? : Android
- Liberate Your Device - Free Your Android! - FSFE
- PRISM、XKeyscore、Tempora などの世界規模のデータ監視プログラムを拒否しよう - PRISM Break - PRISM Break
- Home | Me and my Shadow
-  ・資料編 ・どうしてプライバシーを守るべきなのか？ 参考資料  オープンソースソフトウェアとは - IT用語辞典 Weblio辞書
- Privacy Tools - Encryption Against Global Mass Surveillance</description>
+      <description>&amp;ldquo;If you are not paying for the product, you are the product.&amp;quot;
+ ・オープンソースソフトウェア実践編 ・脱Googleを目指すために読んでおくべきページ
+ De-google-ify Internet What FOSS apps are you using? : Android Liberate Your Device - Free Your Android! - FSFE PRISM、XKeyscore、Tempora などの世界規模のデータ監視プログラムを拒否しよう - PRISM Break - PRISM Break Home | Me and my Shadow   ・資料編 ・どうしてプライバシーを守るべきなのか？ 参考資料  オープンソースソフトウェアとは - IT用語辞典 Weblio辞書 Privacy Tools - Encryption Against Global Mass Surveillance GoogleやFacebookなどの巨大な管理者なしで個人同士がつながりを作り出す新しいウェブの世界「Dweb」とは？ - GIGAZINE PRISM、XKeyscore、Tempora などの世界規模のデータ監視プログラムを拒否しよう - PRISM Break - PRISM Break DuckDuckGo — プライバシーをシンプルに。 PRISM、XKeyscore、Tempora などの世界規模のデータ監視プログラムを拒否しよう - PRISM Break - PRISM Break 電子メール自衛 - 監視にGnuPGの暗号化で闘うガイド 取り調べ可視化義務付け、通信傍受の対象拡大……【刑事訴訟法改正案可決】の意義と懸念 | ビジネスジャーナル 米が日本にメールなどの監視システム提供か｜日テレNEWS24 ドイツ政府は国民のプライバシーを守るために暗号化を推奨   ハッカーやマニアの領域とされていた強力な暗号化を備えた電子メールサービスが、ドイツ政府の支援によって一般の利用者にも使えるようになる。4月以降、De-mailというドイツのメールサービスはPGPと呼ばれるend to endの暗号化機能の提供を開始する。 ナチスの時代及び東ドイツ時代における国家による広範な盗聴・検閲が行われていたという固有の歴史をふまえ、ドイツ国民の間にはプライバシーに対する強い期待が存在する。</description>
     </item>
     
     <item>
@@ -191,11 +209,9 @@ The Watercolor Brush inspire by Painter 6 I loved the watercolor brush of Painte
       
       <guid>https://maborotopia.github.io/etc/003_beaker/</guid>
       <description>&lt;p&gt;ここではDecentralised Webに関する情報を掲載しています。&lt;/p&gt;
-
 &lt;h3 id=&#34;beaker-browserの使い方&#34;&gt;Beaker Browserの使い方&lt;/h3&gt;
-
-&lt;p&gt;Beaker Browserとdatプロトコルなどの非中央集権型のウェブについて簡単に説明する。&lt;br /&gt;
-&lt;a href=&#34;https://beakerbrowser.com/&#34;&gt;Beaker Browser&lt;/a&gt;は、非中央集権型のwebプロトコルDatをサポートしている次世代のブラウザだ。サーバーにデータを保存するのではなく、サイトの訪問者同士が互いにつながって、webサイトのデータを共有する。&lt;br /&gt;
+&lt;p&gt;Beaker Browserとdatプロトコルなどの非中央集権型のウェブについて簡単に説明する。&lt;br&gt;
+&lt;a href=&#34;https://beakerbrowser.com/&#34;&gt;Beaker Browser&lt;/a&gt;は、非中央集権型のwebプロトコルDatをサポートしている次世代のブラウザだ。サーバーにデータを保存するのではなく、サイトの訪問者同士が互いにつながって、webサイトのデータを共有する。&lt;br&gt;
 現時点(2018年9月)ではまだ実験段階だが、&lt;a href=&#34;https://beakerbrowser.com/docs/tour/#one-click-publishing&#34;&gt;サーバーを用意しなくても簡単にwebサイトを作成できる&lt;/a&gt;ほか、&lt;a href=&#34;https://beakerbrowser.com/docs/guides/create-a-markdown-site&#34;&gt;Markdownで記述したファイルをwebページとして表示する&lt;/a&gt;などの機能が備わっている。&lt;/p&gt;</description>
     </item>
     
@@ -205,14 +221,11 @@ The Watercolor Brush inspire by Painter 6 I loved the watercolor brush of Painte
       <pubDate>Mon, 03 Sep 2018 23:21:25 +0000</pubDate>
       
       <guid>https://maborotopia.github.io/etc/004_keyboard/</guid>
-      <description>&lt;p&gt;この項目では、効率的に文字を入力するためのキー配列についての感想を述べる。&lt;br /&gt;
+      <description>&lt;p&gt;この項目では、効率的に文字を入力するためのキー配列についての感想を述べる。&lt;br&gt;
 結論から言うと親指シフトかColemak配列が個人的なおすすめだ。&lt;/p&gt;
-
 &lt;h3 id=&#34;フリック入力&#34;&gt;フリック入力&lt;/h3&gt;
-
 &lt;p&gt;人類の生産性を下げる悪魔の入力方法。十本指のうち一本の指だけで文字を入力するという低劣な文字入力環境を押しつけることで、インターネットの言語環境を根本から破壊した。人間の言語活動はフリック入力に最適化され、短文でしか思考できなくなり、マルチタスクで集中力を奪われ、長文読解力を失い、学力が下がり、（中略）、最終的に日本は滅びる。&lt;/p&gt;
-
-&lt;p&gt;人間は十本の指を使ってタイピングをしなければならないが、キーボード配列にも様々な罠がある。一度身体に染みついたタイピング技術を取り除くのは、新しい方法を習得するよりも難しい。自分がどのキー配列を選ぶのかは、しっかりと考えた方がいい。&lt;br /&gt;
+&lt;p&gt;人間は十本の指を使ってタイピングをしなければならないが、キーボード配列にも様々な罠がある。一度身体に染みついたタイピング技術を取り除くのは、新しい方法を習得するよりも難しい。自分がどのキー配列を選ぶのかは、しっかりと考えた方がいい。&lt;br&gt;
 おれの時代には不可能だった。タイピングソフトもゲームもQwerty配列一色で、他の選択肢など与えられていなかった。おれが他の方法を探し始めたのも、指を腱鞘炎で壊してからだ。おまえたちは俺の二の轍を踏む必要は無い。&lt;/p&gt;</description>
     </item>
     
@@ -223,15 +236,13 @@ The Watercolor Brush inspire by Painter 6 I loved the watercolor brush of Painte
       
       <guid>https://maborotopia.github.io/etc/006_xmpp/</guid>
       <description>&lt;h4 id=&#34;めんどいので前置き抜きでやるぞ&#34;&gt;めんどいので前置き抜きでやるぞ。&lt;/h4&gt;
-
-&lt;p&gt;　まず第一にアカウントを作る。だいたいのことはこのサイトを参考にしてくれ。&lt;br /&gt;
-&lt;a href=&#34;https://www.im-net.org/sp/xmpp/&#34;&gt;一般ユーザー向けXMPP入門ページ（仮）&lt;/a&gt;&lt;br /&gt;
-　クライアントをインストールする。androisではconversationsを使う。playストアでは有料だが、F-droidではフリーで導入できる。&lt;br /&gt;
-　基本的なメッセージ機能と暗号化機能がサポートされており、携帯端末ではいちばん使いやすいと言われる。&lt;strong&gt;音声通話は使えないが、ボイスメッセージやビデオメッセージを残せる。&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;　まず第一にアカウントを作る。だいたいのことはこのサイトを参考にしてくれ。&lt;br&gt;
+&lt;a href=&#34;https://www.im-net.org/sp/xmpp/&#34;&gt;一般ユーザー向けXMPP入門ページ（仮）&lt;/a&gt;&lt;br&gt;
+　クライアントをインストールする。androisではconversationsを使う。playストアでは有料だが、F-droidではフリーで導入できる。&lt;br&gt;
+　基本的なメッセージ機能と暗号化機能がサポートされており、携帯端末ではいちばん使いやすいと言われる。&lt;strong&gt;音声通話は使えないが、ボイスメッセージやビデオメッセージを残せる。&lt;/strong&gt;&lt;br&gt;
 　このあたりの機能を駆使しつつメッセージをやりとりする。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://hacker10.com/computer-security/the-best-xmppjabber-servers-for-anonymous-chat/&#34;&gt;The best XMPP/Jabber servers for anonymous chat – Hacker 10 – Security Hacker&lt;/a&gt;&lt;br /&gt;
-Android　&lt;a href=&#34;https://conversations.im/&#34;&gt;Conversations: the very last word in instant messaging&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;http://hacker10.com/computer-security/the-best-xmppjabber-servers-for-anonymous-chat/&#34;&gt;The best XMPP/Jabber servers for anonymous chat – Hacker 10 – Security Hacker&lt;/a&gt;&lt;br&gt;
+Android　&lt;a href=&#34;https://conversations.im/&#34;&gt;Conversations: the very last word in instant messaging&lt;/a&gt;&lt;br&gt;
 iOS　&lt;a href=&#34;https://chatsecure.org/&#34;&gt;chatsecure.github.io&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
@@ -241,8 +252,17 @@ iOS　&lt;a href=&#34;https://chatsecure.org/&#34;&gt;chatsecure.github.io&lt;/a
       <pubDate>Sun, 05 Aug 2018 04:37:25 +0000</pubDate>
       
       <guid>https://maborotopia.github.io/etc/001_android_oreo/</guid>
-      <description>&lt;p&gt;Androidも初期設定のままでは、微妙な場所で電力を無駄に消費している場合がある。この項目ではこれまでに自分が試したバッテリー節約方法をまとめてある。英語UIを使っているが、日本語でもなんとなくわかるはずだ。わからなかったら検索しよう。&lt;br /&gt;
+      <description>&lt;p&gt;Androidも初期設定のままでは、微妙な場所で電力を無駄に消費している場合がある。この項目ではこれまでに自分が試したバッテリー節約方法をまとめてある。英語UIを使っているが、日本語でもなんとなくわかるはずだ。わからなかったら検索しよう。&lt;br&gt;
 おれはAndroidのスマホを買う度に、動作が安定するまでにwifi経由でgoogleに呪詛の念を向けている。バージョンが変わるたびに設定方法が変わって面倒になるが、基本的な考え方は一緒だ。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AIを使ってイラストに色を塗る謎の技術</title>
+      <link>https://maborotopia.github.io/etc/20200922_ai_coloring/</link>
+      <pubDate>Fri, 22 Sep 2000 13:45:06 +0900</pubDate>
+      
+      <guid>https://maborotopia.github.io/etc/20200922_ai_coloring/</guid>
+      <description>&lt;p&gt;AI着色ソフトを使って、モノクロで描いたイラストを簡易着色する謎技術の開発を行っている。&lt;/p&gt;</description>
     </item>
     
     <item>

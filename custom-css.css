@@ -1,0 +1,26 @@
+/* 目次のスタイル */
+.toc {
+    background-color: #f9f9f9; /* 背景色 */
+    border: 1px solid #ddd; /* 枠線 */
+    padding: 10px; /* 内側の余白 */
+    margin-bottom: 20px; /* 下の余白 */
+}
+
+.toc ul {
+    list-style-type: none; /* リストのスタイルをなしに */
+    padding-left: 0; /* 左の余白をなしに */
+}
+
+.toc li {
+    margin: 5px 0; /* 各項目の上下の余白 */
+}
+
+.toc a {
+    text-decoration: none; /* 下線をなしに */
+    color: #007bff; /* リンクの色 */
+}
+
+.toc a:hover {
+    text-decoration: underline; /* ホバー時に下線を表示 */
+}
+

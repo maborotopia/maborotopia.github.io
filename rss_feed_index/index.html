@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>RSS feed index - Maborotopia</title>
-  <meta property="og:title" content="RSS feed index - Maborotopia" />
-  <meta name="twitter:title" content="RSS feed index - Maborotopia" />
+  <title>Recent Posts（Write.as） - Maborotopia</title>
+  <meta property="og:title" content="Recent Posts（Write.as） - Maborotopia" />
+  <meta name="twitter:title" content="Recent Posts（Write.as） - Maborotopia" />
   <meta name="description" content=" ">
   <meta property="og:description" content=" ">
   <meta name="twitter:description" content=" ">
@@ -46,16 +46,37 @@
     <article class="article">
       
       
-      <h1 class="article-title">RSS feed index</h1>
+      <h1 class="article-title">Recent Posts（Write.as）</h1>
       
       <hr class="article-title-bottom">
       <ul class="article-meta">
-        <li class="article-meta-date"><time>February 16, 0001</time></li>
+        <li class="article-meta-date"><time>September 11, 2030</time></li>
       </ul>
       
 
 
-      <!-- raw HTML omitted -->
+      
+<div id="write-as-feed"></div>
+<script>
+fetch('https://write.as/metsa/feed/')
+  .then(r => r.text())
+  .then(text => {
+    const xml = new DOMParser().parseFromString(text, 'text/xml');
+    const items = Array.from(xml.querySelectorAll('item')).slice(0, 5);
+    const el = document.getElementById('write-as-feed');
+    el.innerHTML = '<h3>The dogs bark, but the caravan goes on</h3><ul>' +
+      [...items].map(i => {
+        const title = i.querySelector('title').textContent;
+        const link = i.querySelector('link').textContent;
+        const date = i.querySelector('pubDate').textContent;
+        return `<li><a href="${link}">${title}</a> <small>${date}</small></li>`;
+      }).join('') + '</ul>';
+  })
+  .catch(() => {
+    document.getElementById('write-as-feed').textContent = '(feed unavailable)';
+  });
+</script>   
+
 
     </article>
 
@@ -70,18 +91,16 @@
 
 
     <ul class="pager article-pager">
-      <li class="pager-newer">
-          <a href="/link/" data-toggle="tooltip" data-placement="top" title="Link">&lt; Newer</a>
-      </li>
+      <li class="pager-newer pager-noitem">&lt; Newer</li>
       <li class="pager-older">
-        <a href="/lc_index/" data-toggle="tooltip" data-placement="top" title="秩序-混沌スペクトラム・インデックス">Older &gt;</a>
+        <a href="/diary_04/" data-toggle="tooltip" data-placement="top" title="日記帳">Older &gt;</a>
       </li>
     </ul>
   </div>
 
 
 <div class="site-footer">
-  <div class="copyright">&copy; Copyright 2020 Maborotopia</div>
+  <div class="copyright">&copy; Copyright 2026 Maborotopia</div>
   <ul class="site-footer-items">
   </ul>
   <div class="powerdby">

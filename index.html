@@ -44,6 +44,44 @@
   <div class="main" role="main">
     <section class="list home-list">
       <article class="article">
+        <a href="/rss_feed_index/" class="article-titles">
+          <h2 class="article-title">Recent Posts（Write.as）</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>September 11, 2030</time></li>
+        </ul>
+        <div class="article-content">
+          
+<div id="write-as-feed"></div>
+<script>
+fetch('https://write.as/metsa/feed/')
+  .then(r => r.text())
+  .then(text => {
+    const xml = new DOMParser().parseFromString(text, 'text/xml');
+    const items = Array.from(xml.querySelectorAll('item')).slice(0, 5);
+    const el = document.getElementById('write-as-feed');
+    el.innerHTML = '<h3>The dogs bark, but the caravan goes on</h3><ul>' +
+      [...items].map(i => {
+        const title = i.querySelector('title').textContent;
+        const link = i.querySelector('link').textContent;
+        const date = i.querySelector('pubDate').textContent;
+        return `<li><a href="${link}">${title}</a> <small>${date}</small></li>`;
+      }).join('') + '</ul>';
+  })
+  .catch(() => {
+    document.getElementById('write-as-feed').textContent = '(feed unavailable)';
+  });
+</script>   
+
+
+        </div>
+        
+        
+        
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
         <a href="/posts/edh-vadrik/" class="article-titles">
           <h2 class="article-title">【ブラケット４】星の大魔導師、ヴァドリック/Vadrik, Astral Archmage</h2>
           
@@ -220,28 +258,6 @@ style="display: block; margin: 24px auto; width: 350px; height: auto;"></p>
 <p>（文章はここで終わりである。Read more の消し方がわからない）</p>
         </div>
         
-        
-        
-        <div class="article-floatclear"></div>
-      </article>
-      <article class="article">
-        <a href="/posts/20211209204834shinjis-system/" class="article-titles">
-          <h2 class="article-title">コトノハ配列システム</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>December 9, 2021</time></li>
-        </ul>
-        <div class="article-content">
-          <p>コトノハ配列システムは、新JIS配列をベースにした日本語入力配列の総称です。<br>
-「コトノハ配列」ではなくて「コトノハ配列システム」であるのには理由があります。ユーザーの手や使うキーボードなのどの入力環境によって、最適な日本語入力配列は異なります。完全な日本語配列を求めるのではなくて、「どんな環境でもそれなりに効率的に日本語を入力できるようにする」ために設計されたのが、コトノハ配列システムです。</p>
-<p>・親指コトノハの配列<br>
-<img src="/img/kotonoha/oyayubi-kotonoha.JPG" alt="oyayubi-kotonoha.JPG"><br>
-<img src="/img/kotonoha/kotonoha-matrix.JPG" alt="kotonoha-matrix.JPG"></p>
-        </div>
-        
-        
-          <div class="article-readmore"><a href="/posts/20211209204834shinjis-system/">Read more...</a></div>
         
         
         <div class="article-floatclear"></div>

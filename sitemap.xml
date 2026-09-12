@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://maborotopia.github.io/</loc>
-    <lastmod>9999-08-15T00:14:13+00:00</lastmod>
-  </url><url>
-    <loc>https://maborotopia.github.io/rss_feed_index/</loc>
     <lastmod>2030-09-11T15:21:16+09:00</lastmod>
   </url><url>
-    <loc>https://maborotopia.github.io/posts/2026_blog/</loc>
-    <lastmod>2026-09-11T15:21:16+09:00</lastmod>
+    <loc>https://maborotopia.github.io/posts/edh-vadrik/</loc>
+    <lastmod>2026-09-11T22:03:01+09:00</lastmod>
   </url><url>
     <loc>https://maborotopia.github.io/posts/</loc>
+    <lastmod>2026-09-11T22:03:01+09:00</lastmod>
+  </url><url>
+    <loc>https://maborotopia.github.io/posts/2026_blog/</loc>
     <lastmod>2026-09-11T15:21:16+09:00</lastmod>
   </url><url>
     <loc>https://maborotopia.github.io/posts/2025_blog/</loc>
@@ -26,6 +26,9 @@
     <loc>https://maborotopia.github.io/posts/2022_blog/</loc>
     <lastmod>2026-09-11T14:52:36+09:00</lastmod>
   </url><url>
+    <loc>https://maborotopia.github.io/posts/2020blog/</loc>
+    <lastmod>2026-09-10T14:52:36+09:00</lastmod>
+  </url><url>
     <loc>https://maborotopia.github.io/posts/100daysoffroad-blog/</loc>
     <lastmod>2025-09-12T00:13:32+00:00</lastmod>
   </url><url>
@@ -34,6 +37,9 @@
   </url><url>
     <loc>https://maborotopia.github.io/posts/20211209204834shinjis-system/</loc>
     <lastmod>2021-12-09T20:48:34+09:00</lastmod>
+  </url><url>
+    <loc>https://maborotopia.github.io/draft/</loc>
+    <lastmod>2021-02-24T19:47:21+09:00</lastmod>
   </url><url>
     <loc>https://maborotopia.github.io/etc/</loc>
     <lastmod>2021-02-21T14:45:06+09:00</lastmod>

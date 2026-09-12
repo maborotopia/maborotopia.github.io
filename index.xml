@@ -9,14 +9,14 @@
     <managingEditor>metsa_disroot@pm.me (Maborotopia)</managingEditor>
     <webMaster>metsa_disroot@pm.me (Maborotopia)</webMaster>
     <copyright>&amp;copy; Copyright 2026 Maborotopia</copyright>
-    <lastBuildDate>Wed, 11 Sep 2030 15:21:16 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 22:03:01 +0900</lastBuildDate>
     <atom:link href="https://maborotopia.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Recent Posts（Write.as）</title>
-      <link>https://maborotopia.github.io/rss_feed_index/</link>
-      <pubDate>Wed, 11 Sep 2030 15:21:16 +0900</pubDate><author>metsa_disroot@pm.me (Maborotopia)</author>
-      <guid>https://maborotopia.github.io/rss_feed_index/</guid>
-      <description> </description>
+      <title>【ブラケット４】星の大魔導師、ヴァドリック/Vadrik, Astral Archmage</title>
+      <link>https://maborotopia.github.io/posts/edh-vadrik/</link>
+      <pubDate>Fri, 11 Sep 2026 22:03:01 +0900</pubDate><author>metsa_disroot@pm.me (Maborotopia)</author>
+      <guid>https://maborotopia.github.io/posts/edh-vadrik/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://api.scryfall.com/cards/mid/325/ja?format=image&#34;&#xA;alt=&#34;星の大魔導師、ヴァドリック&#34;&#xA;style=&#34;display: block; margin: 24px auto; width: 350px; height: auto;&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>2026年ブログまとめ</title>
@@ -52,6 +52,13 @@
       <pubDate>Fri, 11 Sep 2026 14:52:36 +0900</pubDate><author>metsa_disroot@pm.me (Maborotopia)</author>
       <guid>https://maborotopia.github.io/posts/2022_blog/</guid>
       <description>&lt;p&gt;文章の時系列は2021年12月→2022年12月です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2020年10月～2022年ぐらいに書いた文章</title>
+      <link>https://maborotopia.github.io/posts/2020blog/</link>
+      <pubDate>Thu, 10 Sep 2026 14:52:36 +0900</pubDate><author>metsa_disroot@pm.me (Maborotopia)</author>
+      <guid>https://maborotopia.github.io/posts/2020blog/</guid>
+      <description>&lt;p&gt;・このテキストはだいたい2020年から2021年に書いたものである。&lt;/p&gt;</description>
     </item>
     <item>
       <title>100DaysToOffload</title>
@@ -632,7 +639,7 @@
       <link>https://maborotopia.github.io/posts/20192908083024_eroge_op/</link>
       <pubDate>Sun, 17 Nov 2019 08:30:24 +0900</pubDate><author>metsa_disroot@pm.me (Maborotopia)</author>
       <guid>https://maborotopia.github.io/posts/20192908083024_eroge_op/</guid>
-      <description>&lt;p&gt;特に何の脈絡も無く、気に入っている成人向けPCゲームのオープニングムービーを紹介するだけの記事です。榊原ゆいとrita分が多い。エロゲOPに余計な説明はいらない（書くのが面倒くさい）。魂で感じろ。&lt;/p&gt;&#xA;&lt;p&gt;・カタハネ&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;p&gt;特に何の脈絡も無く、気に入っている成人向けPCゲームのオープニングムービーを紹介するだけの記事です。榊原ゆいとrita分が多い。エロゲOPに余計な説明はいらない（書くのが面倒くさい）。魂で感じろ。&lt;/p&gt;&#xA;&lt;p&gt;・カタハネ&lt;/p&gt;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/W3Xci-KAisg&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Ubuntu 19.04でStyle2paintsを動かす</title>

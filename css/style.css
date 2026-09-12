@@ -776,4 +776,37 @@ background-color: #FF6600
   border-color: #0675DE;
 }
 
+/* 幅を一括で変更する場合 */
+.site-header,
+.site-header-bottom,
+.breadcrumb,
+.main,
+.site-footer {
+  max-width: 600px !important;
+}
+
+
+/* テキストにマウスを載せたときに、MTGのカードを表示する */
+.card-hover {
+  position: relative;
+  border-bottom: 1px dotted #999;
+  cursor: help;
+}
+
+.card-hover img {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  z-index: 999;
+  box-shadow: 0 4px 12px rgba(0,0,0,.3);
+  border-radius: 8px;
+}
+
+.card-hover:hover img {
+  display: block;
+}
+
 /* === sharingbuttons.io end === */
